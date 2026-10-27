@@ -72,7 +72,7 @@ python3 scripts/package_skill.py
 
 | # | 场景 | 主方法 | 构图动作 |
 | --- | --- | --- | --- |
-| 01 | [ORIGIN CLUB / 咖啡订阅](docs/case-studies/coffee-passport.md) | 抄现实 | 咖啡杯承载产地信息 |
+| 01 | [ORIGIN CLUB / 咖啡订阅](docs/case-studies/coffee-passport.md) | 抄现实 | 咖啡豆袋承载产地信息 |
 | 02 | [OFF / GRID / 创意设计节](docs/case-studies/offgrid-festival.md) | 圆、方、三角 | 圆形角色与方形议程 |
 | 03 | [APERTURE / 摄影镜头](docs/case-studies/aperture-lens.md) | 断臂之美 | 单眼、手与镜片局部 |
 | 04 | [SŌL / 独立香氛](docs/case-studies/sol-fragrance.md) | 欲擒故纵 | 留白与曲线形成连续阅读 |
@@ -89,7 +89,7 @@ python3 scripts/package_skill.py
 
 ![ORIGIN CLUB 桌面效果](docs/previews/coffee-passport.jpg)
 
-**设计决定：**咖啡杯成为整页结构：杯身放入产地、风味和烘焙档案，杯侧票签切换真实内容。
+**设计决定：**以暖橙色咖啡豆袋为现实载体，袋身标签放入产地、风味与烘焙，三个产地选择更新同一包装。暖白底和深咖色大字让产品成为焦点。
 
 [设计拆解与复现简报](docs/case-studies/coffee-passport.md) · [完整长页](docs/previews/coffee-passport-full.jpg) · [手机效果](docs/previews/coffee-passport-mobile.png) · [布局骨架](docs/previews/coffee-passport-skeleton.jpg) · [HTML 源码](docs/examples/coffee-passport/index.html)
 

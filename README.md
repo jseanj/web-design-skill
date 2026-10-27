@@ -72,7 +72,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 | # | Brand / context | Main method | Structural move |
 | --- | --- | --- | --- |
-| 01 | [ORIGIN CLUB — Coffee subscription](docs/case-studies/coffee-passport.md) | Borrow from real objects · 抄现实 | Cup as content carrier |
+| 01 | [ORIGIN CLUB — Coffee subscription](docs/case-studies/coffee-passport.md) | Borrow from real objects · 抄现实 | Coffee pouch as content carrier |
 | 02 | [OFF / GRID — Design festival](docs/case-studies/offgrid-festival.md) | Compose with geometry · 圆、方、三角 | Circle / triangle / paper agenda |
 | 03 | [APERTURE — Camera lens](docs/case-studies/aperture-lens.md) | Frame a revealing fragment · 断臂之美 | Eye, hand and lens crop |
 | 04 | [SŌL — Independent fragrance](docs/case-studies/sol-fragrance.md) | Create emphasis through restraint · 欲擒故纵 | White space and a continuous line |
@@ -89,7 +89,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 ![ORIGIN CLUB desktop concept](docs/previews/coffee-passport.jpg)
 
-**Design decision:** A giant cup becomes the page structure. Its body holds the origin, tasting notes and roast profile; attached tickets switch the actual content.
+**Design decision:** A warm orange coffee pouch becomes the content carrier. Live HTML on its label holds the origin, tasting notes and roast profile; three origin choices update the same package. The cream canvas keeps attention on the product.
 
 [Case study & reproduction brief](docs/case-studies/coffee-passport.md) · [Full page](docs/previews/coffee-passport-full.jpg) · [Mobile](docs/previews/coffee-passport-mobile.png) · [Layout skeleton](docs/previews/coffee-passport-skeleton.jpg) · [HTML source](docs/examples/coffee-passport/index.html)
 

@@ -42,6 +42,7 @@ try{
     record.checks.push('page loads, one main heading');
     if(c.slug==='coffee-passport'){
       await page.locator('[data-origin="2"]').click();assert.equal(await text('[data-origin-en]'),'YUNNAN');
+      assert.deepEqual(await page.locator('[data-origin-roast]').allTextContents(),['中浅烘焙 / 日晒处理','中浅烘焙 / 日晒处理']);
       await dialogCheck();await page.locator('[data-origin="0"]').click();
     }else if(c.slug==='offgrid-festival'){
       await page.locator('[data-day="1"]').click();assert.ok((await text('#agenda')).includes('把城市当成画布'));
@@ -88,6 +89,10 @@ try{
       if(dims.scroll>dims.client+1) report.errors.push({case:c.slug,viewport:size.width,error:`horizontal overflow: ${JSON.stringify(dims)}`});
       const missing=await page.locator('img').evaluateAll(imgs=>imgs.filter(i=>!i.complete || i.naturalWidth===0).map(i=>i.src));assert.deepEqual(missing,[]);
       if(dims.scroll<=dims.client+1) record.checks.push(`no document overflow at ${size.width}px`);
+      if(c.slug==='coffee-passport'){
+        const fits=await page.locator('.roast-label').evaluate(el=>el.scrollHeight<=el.clientHeight+1);
+        assert.ok(fits,`coffee package label overflows at ${size.width}px`);
+      }
       if(size.width===1440){
         await page.screenshot({path:path.join(out,`${c.slug}.jpg`),type:'jpeg',quality:88,fullPage:false});
         await page.screenshot({path:path.join(out,`${c.slug}-full.jpg`),type:'jpeg',quality:88,fullPage:true});
@@ -98,7 +103,16 @@ try{
         // Confirm a primary control is reachable and usable after reflow.
         if(c.slug==='loop-impact'){await page.locator('#frequency').fill('4');assert.equal(await text('[data-annual]'),'208');await page.locator('#frequency').fill('3');}
         else if(c.slug==='field-notes'){await page.locator('[data-article="main"]').click();assert.equal(await page.locator('#detail-dialog').isVisible(),true);await page.keyboard.press('Escape');}
-        else await dialogCheck();
+        else {
+          if(c.slug==='coffee-passport'){
+            assert.equal(await page.locator('.roast-mobile-profile').isVisible(),true);
+            await page.locator('[data-origin="1"]').click();
+            assert.equal(await text('[data-origin-en]'),'COLOMBIA');
+            assert.equal(await page.locator('.roast-mobile-profile strong').textContent(),'中度烘焙 / 水洗处理');
+            await page.locator('[data-origin="0"]').click();
+          }
+          await dialogCheck();
+        }
         record.checks.push('primary interaction reachable on mobile');
       }
     }

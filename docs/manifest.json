@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T13:55:07.291349+00:00",
+  "generatedAt": "2026-10-27T14:08:48.474708+00:00",
   "purpose": "unsigned artifact integrity inventory; not causal proof or independent reproduction",
   "skillSha256": "f0580d0b217987b5c602521232fb4b6a989b9aec775e0cd79f336a685bbc5a77",
   "files": [
@@ -36,13 +36,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 18580,
-      "sha256": "e95523c6a1c2f738e071905a3397cefd1f7767ac3a223a4215fc7264eac0a311"
+      "bytes": 18670,
+      "sha256": "c6d8cb3d9cf0e050bc1ccfccdf6067afd0e0217b372a01b73b2337b631b854d6"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 16334,
-      "sha256": "ff5a859302195f393d57983097f7fcf0c7932f795887e343834f4954627d840c"
+      "bytes": 16406,
+      "sha256": "05f2d7492c75f0b8996ca034cfae30b4e4a836871e6e6e190cc2676afc666830"
     },
     {
       "path": "SKILL.md",
@@ -85,9 +85,9 @@
       "sha256": "f1589082808726324b01ab99efd0bcdc00af7a3085ca34aa235acdbe44976fad"
     },
     {
-      "path": "docs/assets/art/coffee-world.png",
-      "bytes": 2664790,
-      "sha256": "69e47f3bb18cbc1da6bf4ceda684e62061385964eaa0a37519cc93d20f55765a"
+      "path": "docs/assets/art/coffee-pouch.png",
+      "bytes": 2314053,
+      "sha256": "b4731606e45e57a82c12cbd729e3846a2749e8b9b1f85080449d790eb793fb31"
     },
     {
       "path": "docs/assets/art/north-landscape.png",
@@ -106,8 +106,13 @@
     },
     {
       "path": "docs/assets/art-prompts.json",
-      "bytes": 7484,
-      "sha256": "8a95df88b04668ef2f7e3cae4b9f91c19d485a3414bbb8b77331801e2568e470"
+      "bytes": 7823,
+      "sha256": "7c7e459011c6d7d7ab695c8473744998e8a301c0b28f2ea45d9b0798cc8cdd63"
+    },
+    {
+      "path": "docs/assets/coffee.css",
+      "bytes": 12840,
+      "sha256": "0d6ac3d0646211a227e58afaea923742949f27ad19be489f58ec3cd0f74e8bdd"
     },
     {
       "path": "docs/assets/gallery.css",
@@ -126,8 +131,8 @@
     },
     {
       "path": "docs/assets/shared.js",
-      "bytes": 12044,
-      "sha256": "b836e4ec084d48be03011115bd9aa0ea7e4231670eab6b21f0cfef521c9c96f9"
+      "bytes": 12061,
+      "sha256": "24b321ee7a1c035a63e6b5c298dea0be153ea12f45f6af76d3fe02ad344a83af"
     },
     {
       "path": "docs/case-studies/aperture-lens.md",
@@ -136,8 +141,8 @@
     },
     {
       "path": "docs/case-studies/coffee-passport.md",
-      "bytes": 2563,
-      "sha256": "0a0cf9550dfdae32bd4e9dccf6fa49dde12060e92262d5945d9fb88444791a0f"
+      "bytes": 2797,
+      "sha256": "784a7fe79fd1f610bb2066c74e6c547231dfbbbc8986daf64c9e01c1ce149013"
     },
     {
       "path": "docs/case-studies/crumb-bakery.md",
@@ -181,8 +186,8 @@
     },
     {
       "path": "docs/cases.js",
-      "bytes": 14828,
-      "sha256": "ee800e01677bb0d81f472b4a744463745f4871bb3bd29312746d668a227a4650"
+      "bytes": 14862,
+      "sha256": "21c07e908d76e7cc02ee3b5ff4d55229faedcd2f642b7ed4b958e00723f0ae54"
     },
     {
       "path": "docs/examples/aperture-lens/index.html",
@@ -191,8 +196,8 @@
     },
     {
       "path": "docs/examples/coffee-passport/index.html",
-      "bytes": 4214,
-      "sha256": "0264f64391dedfbf0d345affe5965d864994d1c161455ecc1192303daa53dad5"
+      "bytes": 5024,
+      "sha256": "b6b4d5d1b17094b84bc9a3831e551239af392a876615c636b950c9737dcfc66b"
     },
     {
       "path": "docs/examples/crumb-bakery/index.html",
@@ -236,13 +241,13 @@
     },
     {
       "path": "docs/generation-record.json",
-      "bytes": 1856,
-      "sha256": "4c803e158951fcde85b1c5464283a3c2cfcef3faf6b415641575c136f6c7a070"
+      "bytes": 2251,
+      "sha256": "ee7e303e3a97428fe83245354898e8298e928c8cd2cdbcde6daacca6f86d5845"
     },
     {
       "path": "docs/index.html",
       "bytes": 3745,
-      "sha256": "c606e143ea6943a43c499e13a8e9c7e121fba05da37af571b3a14ab844f3b3cd"
+      "sha256": "666e2b5d6395f47b2fe6f5a03403465a9c2f713e632b5f84c3e7993771130f9e"
     },
     {
       "path": "docs/previews/aperture-lens-full.jpg",
@@ -266,23 +271,23 @@
     },
     {
       "path": "docs/previews/coffee-passport-full.jpg",
-      "bytes": 343762,
-      "sha256": "64dda0f86adf28c77e16d1b437ccd78a866cf0e9e7305a3810b92c32bccf43c8"
+      "bytes": 167586,
+      "sha256": "a11ea1f24f91d3870ac464b846b240577c0e375dca5cca4ff67a7915ce04ce49"
     },
     {
       "path": "docs/previews/coffee-passport-mobile.png",
-      "bytes": 347770,
-      "sha256": "7c359af334ee6f548bafedfe99047cc6fbe1d66630fcb9ca8463a88ffea3e38e"
+      "bytes": 341942,
+      "sha256": "9dd4b42289554b2a21a77f2ed44bbf7f4079220fcc4ab2667c8280b913534983"
     },
     {
       "path": "docs/previews/coffee-passport-skeleton.jpg",
-      "bytes": 162939,
-      "sha256": "a1097d91b8c9dde8ada6e0a11d82d40567105b9f2358121ee70583207090be4a"
+      "bytes": 134196,
+      "sha256": "bf5519afe1677f5f850a7666f06eb366eb892d8de18b89c802d15f762e216e64"
     },
     {
       "path": "docs/previews/coffee-passport.jpg",
-      "bytes": 271025,
-      "sha256": "c773610a495334cf9235b68832cdff2366f47e653808075d05db899d8e1105f0"
+      "bytes": 141828,
+      "sha256": "adf736a71855b393ae21dbff79197fb4d7c1970867fd8df3f61539eedd5aca6e"
     },
     {
       "path": "docs/previews/crumb-bakery-full.jpg",
@@ -326,13 +331,13 @@
     },
     {
       "path": "docs/previews/gallery-mobile.png",
-      "bytes": 977339,
-      "sha256": "0c6674f37ff6a26b40e021daff588d7302dc1eaaff794dd2ad1ab3fefc502af7"
+      "bytes": 921680,
+      "sha256": "269b519d78ce04e1e9a6f9dfcfd33ab7fc330f5b6eec14f09effd29a3e541043"
     },
     {
       "path": "docs/previews/gallery.png",
-      "bytes": 2509165,
-      "sha256": "881c1c57754bdc4b218daa2ea056d6b49af51ce5d3e0df6a585858203ddef56f"
+      "bytes": 2316628,
+      "sha256": "0ef62b6ee6216ca9a63a8924e43d096f11af996d47900a6fbaf13d09a0954e67"
     },
     {
       "path": "docs/previews/kaiwu-workshop-full.jpg",
@@ -416,8 +421,8 @@
     },
     {
       "path": "docs/previews/overview.jpg",
-      "bytes": 814623,
-      "sha256": "2d001f9e9034602006e249eabc784a3c010a2edb4041807f868fa808ce9a7492"
+      "bytes": 763648,
+      "sha256": "909c776e31b4995a0571a93d8f0f82b544bca94d50e3d8615e49fb26b20db0bb"
     },
     {
       "path": "docs/previews/shift-running-full.jpg",
@@ -467,7 +472,7 @@
     {
       "path": "docs/verification.json",
       "bytes": 7873,
-      "sha256": "5e227c158002b4c2b84471d0034723c883b0b7143613bc0928e8e39b915b07bf"
+      "sha256": "fbb2cc12a946debd5dd16bd6caf41efe8f21d6466e1e28915d770126aad0d676"
     },
     {
       "path": "package.json",
@@ -496,8 +501,8 @@
     },
     {
       "path": "scripts/build-examples.py",
-      "bytes": 26160,
-      "sha256": "91c81e616db55c2b5f903d5544af6b11a6addae34844f7063bc65fa4b33c3f21"
+      "bytes": 27909,
+      "sha256": "898d98d5120e7debc89326bbf261d796b581d22bc2e94ab97f078810c1ba976d"
     },
     {
       "path": "scripts/check_repo.py",
@@ -526,8 +531,8 @@
     },
     {
       "path": "scripts/verify.mjs",
-      "bytes": 9125,
-      "sha256": "0b0a4e9669527f602f32947e42eed951f79ac7dffb1ce3e7bf62fffb2134238f"
+      "bytes": 9976,
+      "sha256": "f5488e147ae614613651c0ad59ed5a53fe52b518d228a30d4aef3eb6e5e0694c"
     }
   ]
 }

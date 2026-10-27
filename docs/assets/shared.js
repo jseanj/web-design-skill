@@ -24,7 +24,7 @@
   const pressed = (selector, el) => $$(selector).forEach(b => b.setAttribute('aria-pressed', String(b === el)));
   $$('[data-origin]').forEach(b => b.addEventListener('click', () => {
     origin=Number(b.dataset.origin); pressed('[data-origin]',b);
-    ['code','en','region','flavor','note','roast'].forEach((key,i)=>$(`[data-origin-${key}]`).textContent=origins[origin][i]);
+    ['code','en','region','flavor','note','roast'].forEach((key,i)=>$$(`[data-origin-${key}]`).forEach(el=>el.textContent=origins[origin][i]));
   }));
   const agendas = [
     [['10:00','把想法变成形状','视觉实验 / 开场对谈'],['14:00','不按说明书来','几何拼贴 / 动手工作坊'],['18:00','夜晚也有灵感','作品放映 / 自由交流']],
