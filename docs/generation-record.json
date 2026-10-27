@@ -21,7 +21,7 @@
   "evidenceLimit": "本记录为创作者说明，文件指纹不等于签名证明，也不证明技能与结果的因果关系。",
   "verificationReport": "verification.json",
   "artifactManifest": "manifest.json",
-  "revision": "3 / coffee pouch redesign; other nine examples retain revision 2 compositions",
+  "revision": "4 / coffee and festival redesigns; other eight retain revision 2 compositions",
   "referenceInspection": "参考材料仅供分析其构图、承载与取景方法；原始案例图片未进入发布包。",
   "artDisclosure": "八份图像使用内置 image_gen 生成，完整提示词与素材路径见 assets/art-prompts.json。素材对成品表现有直接贡献。",
   "skillAtStartSha256": "01ff4ba6d6d39a1e8ce24de302df67f933d76e989c60891275d400ef62274c87",
@@ -31,5 +31,11 @@
     "direction": "以暖橙色咖啡豆袋替代繁复山景和巨型杯体；真实 HTML 进入包装标签。",
     "asset": "assets/art/coffee-pouch.png",
     "mode": "same-session redesign using built-in image_gen; not independent reproduction"
+  },
+  "festivalRevision": {
+    "trigger": "用户反馈第二个设计节案例效果不够好，要求重新生成。",
+    "direction": "大字与几何海报；圆盘选日期、方块读议程、三角引导入场。",
+    "implementation": "native HTML/CSS shapes and typography, no new raster artwork",
+    "mode": "same-session redesign; not independent reproduction"
   }
 }

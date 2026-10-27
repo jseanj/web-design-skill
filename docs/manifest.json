@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T14:08:48.474708+00:00",
+  "generatedAt": "2026-10-27T14:20:36.949892+00:00",
   "purpose": "unsigned artifact integrity inventory; not causal proof or independent reproduction",
   "skillSha256": "f0580d0b217987b5c602521232fb4b6a989b9aec775e0cd79f336a685bbc5a77",
   "files": [
@@ -36,13 +36,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 18670,
-      "sha256": "c6d8cb3d9cf0e050bc1ccfccdf6067afd0e0217b372a01b73b2337b631b854d6"
+      "bytes": 18758,
+      "sha256": "eac7ee517937f1b9d74f3c061892fde9355dbd3e133d3b375598a4008c6a58e8"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 16406,
-      "sha256": "05f2d7492c75f0b8996ca034cfae30b4e4a836871e6e6e190cc2676afc666830"
+      "bytes": 16496,
+      "sha256": "502e67b06ed270e1e7ffdce53ad81d3d2c4f2a61e5be16e4237d72c0ba90b599"
     },
     {
       "path": "SKILL.md",
@@ -115,6 +115,11 @@
       "sha256": "0d6ac3d0646211a227e58afaea923742949f27ad19be489f58ec3cd0f74e8bdd"
     },
     {
+      "path": "docs/assets/festival.css",
+      "bytes": 14468,
+      "sha256": "f156e74f4e18a1ea38ff884fc5c8018748ad1abec4da0c510a237081863c7496"
+    },
+    {
       "path": "docs/assets/gallery.css",
       "bytes": 7356,
       "sha256": "21cdcf830c4d3b8184d5b5ca1012a9446da5739ef2101e79eeca98dacf0cae2c"
@@ -131,8 +136,8 @@
     },
     {
       "path": "docs/assets/shared.js",
-      "bytes": 12061,
-      "sha256": "24b321ee7a1c035a63e6b5c298dea0be153ea12f45f6af76d3fe02ad344a83af"
+      "bytes": 12419,
+      "sha256": "f024cbf8b2b01048d6485103cbb24e1895b1238014b70b99ef5805b1fb77ff9a"
     },
     {
       "path": "docs/case-studies/aperture-lens.md",
@@ -171,8 +176,8 @@
     },
     {
       "path": "docs/case-studies/offgrid-festival.md",
-      "bytes": 2535,
-      "sha256": "09d8af5babdf1737ac774d2f5a5b908e3d5b2742f5af48faef514ecfe8c28f59"
+      "bytes": 2856,
+      "sha256": "ab1b79052cd902394b1b920e070d107c28c92d368748fdb68edba3626191e26a"
     },
     {
       "path": "docs/case-studies/shift-running.md",
@@ -186,8 +191,8 @@
     },
     {
       "path": "docs/cases.js",
-      "bytes": 14862,
-      "sha256": "21c07e908d76e7cc02ee3b5ff4d55229faedcd2f642b7ed4b958e00723f0ae54"
+      "bytes": 14942,
+      "sha256": "338aa610a781a97ac9efec790089a0acde4a30893ada054f2d2bbccfe2a95730"
     },
     {
       "path": "docs/examples/aperture-lens/index.html",
@@ -226,8 +231,8 @@
     },
     {
       "path": "docs/examples/offgrid-festival/index.html",
-      "bytes": 3602,
-      "sha256": "8d6e3c6ae7bf505a56a277d01fcb4d4841677c5cb84298c3cf72a30e273cbbe0"
+      "bytes": 4901,
+      "sha256": "412e9fff6e030cd18669851a8a2530cab0b87ecdd8df1c5a50d1b1e0ff1e7ac9"
     },
     {
       "path": "docs/examples/shift-running/index.html",
@@ -241,8 +246,8 @@
     },
     {
       "path": "docs/generation-record.json",
-      "bytes": 2251,
-      "sha256": "ee7e303e3a97428fe83245354898e8298e928c8cd2cdbcde6daacca6f86d5845"
+      "bytes": 2628,
+      "sha256": "4a773220e4f94f8328c39effa82c0659d4fe04280b8aa13308edc97c23bbc953"
     },
     {
       "path": "docs/index.html",
@@ -331,13 +336,13 @@
     },
     {
       "path": "docs/previews/gallery-mobile.png",
-      "bytes": 921680,
-      "sha256": "269b519d78ce04e1e9a6f9dfcfd33ab7fc330f5b6eec14f09effd29a3e541043"
+      "bytes": 907839,
+      "sha256": "a32494150135b80596f15180f82843876a98821cd8518ca0acf8361f36734c0d"
     },
     {
       "path": "docs/previews/gallery.png",
-      "bytes": 2316628,
-      "sha256": "0ef62b6ee6216ca9a63a8924e43d096f11af996d47900a6fbaf13d09a0954e67"
+      "bytes": 2281581,
+      "sha256": "458164e8958c257fc09ce54a3c56e93cab45f494511f615fef5930b0bf45fe42"
     },
     {
       "path": "docs/previews/kaiwu-workshop-full.jpg",
@@ -401,28 +406,28 @@
     },
     {
       "path": "docs/previews/offgrid-festival-full.jpg",
-      "bytes": 151779,
-      "sha256": "e528b596dc5f948d378fa8e5b9dd0266d91a9fb67bc6b01d6fa4d4c05ddcc3bc"
+      "bytes": 123165,
+      "sha256": "3255ec434dc971763fc31f7c9e900a8ad2765e2f0466a77da892bfcb6824b957"
     },
     {
       "path": "docs/previews/offgrid-festival-mobile.png",
-      "bytes": 206790,
-      "sha256": "b81bff0757fdf31e219cee50146ebb98ca356e64dec0b43fd200c713ad86758c"
+      "bytes": 92855,
+      "sha256": "a973d52ff81551de7377ec72ca862db44b9b81311cb871fbd2ee7e82f9a9a8d3"
     },
     {
       "path": "docs/previews/offgrid-festival-skeleton.jpg",
-      "bytes": 141700,
-      "sha256": "b279969385cf79bc7dd9c91f82962d19964734ebb5e268f192adb05f523be118"
+      "bytes": 150457,
+      "sha256": "7da1e0dd57d49f5c5c8bd124595ddf7568419c045c8bf1c3ea0e94df39565ecc"
     },
     {
       "path": "docs/previews/offgrid-festival.jpg",
-      "bytes": 121194,
-      "sha256": "2573d49a68770787fc7575941a6eedf0525ffc0e35eeba785d1a6176b0d61e89"
+      "bytes": 105956,
+      "sha256": "91059c4f4fa5214c82d1f803a42bacb72e9fbc1d9a341160f654458d7258d523"
     },
     {
       "path": "docs/previews/overview.jpg",
-      "bytes": 763648,
-      "sha256": "909c776e31b4995a0571a93d8f0f82b544bca94d50e3d8615e49fb26b20db0bb"
+      "bytes": 757098,
+      "sha256": "7fc694f804eec642590be36de697526e8402cd8e6351ff85fbd4c37f5b865d9e"
     },
     {
       "path": "docs/previews/shift-running-full.jpg",
@@ -472,7 +477,7 @@
     {
       "path": "docs/verification.json",
       "bytes": 7873,
-      "sha256": "fbb2cc12a946debd5dd16bd6caf41efe8f21d6466e1e28915d770126aad0d676"
+      "sha256": "37e93900792569fb794469c1c54986cd391d127be0542c5a31c497fbe1e37fcc"
     },
     {
       "path": "package.json",
@@ -501,8 +506,8 @@
     },
     {
       "path": "scripts/build-examples.py",
-      "bytes": 27909,
-      "sha256": "898d98d5120e7debc89326bbf261d796b581d22bc2e94ab97f078810c1ba976d"
+      "bytes": 29451,
+      "sha256": "d614ea8561199e6f65a7c5b1557b5b064bc9a495ef52717855f81006aac26b0d"
     },
     {
       "path": "scripts/check_repo.py",
@@ -531,8 +536,8 @@
     },
     {
       "path": "scripts/verify.mjs",
-      "bytes": 9976,
-      "sha256": "f5488e147ae614613651c0ad59ed5a53fe52b518d228a30d4aef3eb6e5e0694c"
+      "bytes": 10731,
+      "sha256": "4844b22b572013a9323d2505ff9a6116acc60e1718a7c0ccacbcee5e3d9c5abc"
     }
   ]
 }

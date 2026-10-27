@@ -73,7 +73,7 @@ python3 scripts/package_skill.py
 | # | 场景 | 主方法 | 构图动作 |
 | --- | --- | --- | --- |
 | 01 | [ORIGIN CLUB / 咖啡订阅](docs/case-studies/coffee-passport.md) | 抄现实 | 咖啡豆袋承载产地信息 |
-| 02 | [OFF / GRID / 创意设计节](docs/case-studies/offgrid-festival.md) | 圆、方、三角 | 圆形角色与方形议程 |
+| 02 | [OFF / GRID / 创意设计节](docs/case-studies/offgrid-festival.md) | 圆、方、三角 | 圆选日期、方读议程、三角入场 |
 | 03 | [APERTURE / 摄影镜头](docs/case-studies/aperture-lens.md) | 断臂之美 | 单眼、手与镜片局部 |
 | 04 | [SŌL / 独立香氛](docs/case-studies/sol-fragrance.md) | 欲擒故纵 | 留白与曲线形成连续阅读 |
 | 05 | [SHIFT / 城市跑团](docs/case-studies/shift-running.md) | 乾坤大挪移 | 旋转整张路线票据 |
@@ -95,11 +95,11 @@ python3 scripts/package_skill.py
 
 ### 02 · OFF / GRID / 圆、方、三角
 
-**简报：**为创意设计节建立鲜明角色，同时让议程易读。
+**简报：**为创意设计节建立鲜明的海报识别，同时让议程可读、可操作。
 
 ![OFF / GRID 桌面效果](docs/previews/offgrid-festival.jpg)
 
-**设计决定：**圆形身体、三角耳朵和方形纸腹组成节日角色；议程进入纸腹，切换日期即可更新。
+**设计决定：**大号字建立海报重心，荧光圆盘选择日期，黑色方块承载当天议程，粉色三角成为入场按钮；三个主形各有真实的信息职责。
 
 [设计拆解与复现简报](docs/case-studies/offgrid-festival.md) · [完整长页](docs/previews/offgrid-festival-full.jpg) · [手机效果](docs/previews/offgrid-festival-mobile.png) · [布局骨架](docs/previews/offgrid-festival-skeleton.jpg) · [HTML 源码](docs/examples/offgrid-festival/index.html)
 

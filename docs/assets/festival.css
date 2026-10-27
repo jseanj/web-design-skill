@@ -1,0 +1,80 @@
+/* 02 / Geometric editorial system: circle selects, square explains, triangle acts. */
+.festival{--ink:#20201d;--accent:#dcf54b;--line:#20201d30;color:var(--ink);background:#efefe8}
+.festival .nav{height:68px;padding:0 4%;border-color:var(--line)}
+.festival .brand{font-size:19px;letter-spacing:-.065em;font-weight:900}
+.festival .nav-links{gap:26px}
+.fg-poster{max-width:1760px;margin:auto;padding:27px 4% 42px;position:relative}
+.fg-edition{display:flex;justify-content:space-between;gap:20px;font:9px/1.5 'Courier New',monospace;letter-spacing:.08em;margin-bottom:31px}
+.fg-edition>span:nth-child(2){margin-left:auto;margin-right:8%}
+.fg-layout{display:grid;grid-template-columns:1.05fr .72fr 1.13fr;grid-template-rows:340px 356px;gap:24px 32px;align-items:stretch}
+.fg-headline{grid-column:1/3;grid-row:1;position:relative;z-index:2}
+.fg-headline-kicker{position:absolute;top:7px;right:10px;font:8px/1.5 'Courier New',monospace;writing-mode:vertical-rl;letter-spacing:.1em}
+.fg-headline h1{font-family:'Arial Black',Arial,Helvetica,sans-serif;font-size:clamp(145px,16vw,260px);font-weight:900;line-height:.77;letter-spacing:-.095em;margin:0;padding:0}
+.fg-headline h1>span{display:block;white-space:nowrap}
+.fg-headline h1>span:nth-child(2){position:relative;margin-top:5px}
+.fg-headline h1 i{font-weight:400;font-style:normal;letter-spacing:-.15em;display:inline-block;margin-right:.055em}
+.fg-wordmark-dot{display:inline-block;vertical-align:top;font-size:17px;line-height:1;letter-spacing:0;margin-top:19px;margin-left:20px}
+.fg-heading-caption{display:block;font-size:10px;letter-spacing:.32em;margin-top:23px;padding-left:9px}
+.fg-date{grid-column:3;grid-row:1;justify-self:center;align-self:start;background:#dcf54b;border-radius:50%;width:322px;height:322px;display:flex;flex-direction:column;align-items:center;padding:29px 33px 22px;position:relative;transform:rotate(7deg);box-shadow:inset 0 0 0 1px #20201d12}
+.fg-date>*{transform:rotate(-7deg)}
+.fg-circle-label{font:9px 'Courier New',monospace;letter-spacing:.16em}
+.fg-day-number{font-family:Arial,Helvetica,sans-serif;font-size:126px;font-weight:800;line-height:.9;letter-spacing:-.09em;margin:14px 10px 4px 0}
+.fg-day-name{font:9px 'Courier New',monospace;letter-spacing:.04em}
+.fg-day-buttons{display:flex;gap:6px;margin:21px 0 12px;align-items:center}
+.fg-day-buttons button{border:1px solid #20201d55;background:transparent;width:53px;height:46px;display:flex;align-items:baseline;justify-content:center;gap:4px;padding:10px 3px 8px}
+.fg-day-buttons b{font-size:14px;letter-spacing:-.04em}
+.fg-day-buttons button>span{font:7px 'Courier New',monospace}
+.fg-day-buttons button[aria-pressed=true]{background:#20201d;color:#dcf54b;border-color:#20201d}
+.fg-day-buttons button:hover:not([aria-pressed=true]){background:#20201d13}
+.fg-circle-foot{font:6px 'Courier New',monospace;letter-spacing:.12em}
+.fg-intro{grid-column:1;grid-row:2;align-self:end;padding:6px 0 8px 6px}
+.fg-tiny-label{font:8px 'Courier New',monospace;letter-spacing:.03em}
+.fg-intro h2{font-size:47px;font-weight:800;line-height:1.15;letter-spacing:-.07em;margin:20px 0 20px}
+.fg-intro>p{font-size:12px;line-height:1.9;color:#77766d;margin:0 0 23px}
+.fg-location{display:flex;align-items:center;gap:14px;font:9px/1.8 'Courier New',monospace}
+.fg-location-marker{font-size:46px;font-weight:300;line-height:1}
+.fg-location b{font-weight:400;font-size:10px}
+.fg-entry{grid-column:2;grid-row:2;align-self:end;justify-self:center;width:100%;max-width:310px;aspect-ratio:1.02;position:relative;transform:rotate(-8deg);z-index:2}
+.fg-entry-button{position:absolute;inset:0;border:0;background:#ff8ab6;clip-path:polygon(50% 0,100% 100%,0 100%);display:flex;flex-direction:column;align-items:center;justify-content:end;padding:0 0 23px;width:100%;height:100%;color:#20201d;transition:background .2s}
+.fg-entry-button:hover{background:#ff6da4}
+.fg-entry-arrow{font-family:Arial,sans-serif;font-size:51px;line-height:1;font-weight:400;margin-bottom:8px}
+.fg-entry-button strong{font-size:25px;line-height:1.2;letter-spacing:-.06em;text-align:left}
+.fg-entry-button small{font:8px 'Courier New',monospace;letter-spacing:.08em;margin-top:13px}
+.fg-entry:focus-within{outline:2px solid #20201d;outline-offset:6px}
+.fg-agenda{grid-column:3;grid-row:2;background:#20201d;color:#f2f0e6;padding:24px 27px 20px;display:flex;flex-direction:column;position:relative}
+.fg-agenda>header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-bottom:17px;border-bottom:1px solid #f2f0e659}
+.fg-agenda>header>div>span{display:block;font:8px 'Courier New',monospace;letter-spacing:.06em;color:#b9b8ae;margin-bottom:9px}
+.fg-agenda h2{font-size:25px;font-weight:500;letter-spacing:-.055em;line-height:1.1;margin:0}
+.fg-program-stamp{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:36px}
+.fg-program-stamp>span{font:7px 'Courier New',monospace;color:#dcf54b;letter-spacing:.13em}
+.fg-program-stamp>b{font-size:27px;font-weight:400;line-height:1;letter-spacing:-.06em;color:#dcf54b}
+.fg-agenda #agenda{flex:1;display:flex;flex-direction:column;justify-content:center}
+.fg-agenda .agenda-row{display:flex;gap:18px;align-items:center;border-bottom:1px solid #f2f0e62d;padding:15px 0;min-height:67px}
+.fg-agenda .agenda-row:last-child{border-bottom:0}
+.fg-agenda .agenda-row time,.fg-agenda .agenda-row>.mono{font:10px 'Courier New',monospace;min-width:43px;color:#dcf54b}
+.fg-agenda .agenda-row>div{min-width:0}
+.fg-agenda .agenda-row strong{font-size:14px;font-weight:400;line-height:1.4;margin-bottom:6px;color:#f2f0e6}
+.fg-agenda .agenda-row small{display:block;font-size:9px;line-height:1.5;color:#9e9f94}
+.fg-agenda-foot{display:flex;justify-content:space-between;gap:15px;padding-top:12px;border-top:1px solid #f2f0e659;font-size:8px;color:#999b8f}
+.fg-agenda-foot>span:first-child{font:7px 'Courier New',monospace;white-space:nowrap}
+.fg-ribbon{overflow:hidden;display:flex;align-items:center;justify-content:space-around;gap:34px;padding:20px 0;background:#dcf54b;white-space:nowrap;font:bold 33px/.9 Arial,sans-serif;letter-spacing:-.055em;border-top:1px solid #20201d;border-bottom:1px solid #20201d;user-select:none}
+.fg-ribbon>i{font-style:normal;font-size:42px;font-weight:400}
+.fg-after{padding:34px 4%;max-width:1760px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.fg-after>p{font-size:14px;line-height:1.6;margin:0;font-weight:400}
+.fg-after>p>strong{font-weight:400;color:#838378}
+.fg-after>div{display:flex;gap:40px;align-items:center}
+.fg-after>div>span{font-size:35px;letter-spacing:-.06em;line-height:1}
+.fg-after small{display:block;font:7px 'Courier New',monospace;letter-spacing:.05em;margin-top:9px}
+.fg-after-note{font-size:8px;color:#838378}
+.festival .footer{border-color:var(--line);font-size:8px}
+.festival .footer button{font-size:9px}
+.festival .skeleton .skeleton-legend{color:#f2f0e6}
+.skeleton .fg-date,.skeleton .fg-agenda,.skeleton .fg-entry{outline:2px dashed #7c41ae;outline-offset:5px}
+.skeleton .fg-headline{outline:1px dashed #7c41ae;outline-offset:5px}
+.skeleton .fg-entry-button{background:#ff8ab650}
+@media(min-width:1650px){.fg-layout{grid-template-rows:400px 390px;gap:30px 45px}.fg-date{width:360px;height:360px;padding-top:35px}.fg-day-number{font-size:147px}.fg-day-buttons{margin-top:24px}.fg-intro h2{font-size:57px}.fg-agenda{padding:30px 34px}.fg-agenda .agenda-row{min-height:74px}.fg-agenda .agenda-row strong{font-size:16px}}
+@media(max-width:1100px) and (min-width:701px){.fg-poster{padding-top:24px}.fg-layout{grid-template-columns:1.05fr .65fr 1.3fr;grid-template-rows:265px 340px;gap:28px 20px}.fg-edition{font-size:8px;margin-bottom:27px}.fg-headline h1{font-size:17.3vw}.fg-headline-kicker{font-size:6px;right:-3px}.fg-heading-caption{font-size:8px;letter-spacing:.16em;margin-top:18px}.fg-wordmark-dot{font-size:11px;margin:10px 0 0 12px}.fg-date{width:250px;height:250px;padding:21px 17px 15px}.fg-circle-label{font-size:7px}.fg-day-number{font-size:95px;margin-top:12px;margin-bottom:4px}.fg-day-name{font-size:7px}.fg-day-buttons{gap:4px;margin:15px 0 8px}.fg-day-buttons button{width:46px;height:42px;padding:9px 3px}.fg-day-buttons b{font-size:13px}.fg-day-buttons button>span{font-size:6px}.fg-circle-foot{font-size:5px}.fg-intro h2{font-size:35px;margin:19px 0}.fg-intro>p{font-size:10px}.fg-tiny-label{font-size:6px}.fg-location{font-size:8px;gap:9px}.fg-location b{font-size:8px}.fg-location-marker{font-size:37px}.fg-entry{width:118%;max-width:260px;align-self:center;justify-self:center}.fg-entry-button{padding-bottom:21px}.fg-entry-arrow{font-size:36px;margin-bottom:5px}.fg-entry-button strong{font-size:19px}.fg-entry-button small{font-size:6px;margin-top:8px}.fg-agenda{padding:22px 19px}.fg-agenda h2{font-size:21px}.fg-agenda>header{gap:10px;padding-bottom:15px}.fg-agenda>header>div>span{font-size:6px;margin-bottom:8px}.fg-program-stamp>b{font-size:24px}.fg-agenda .agenda-row{gap:12px;min-height:69px;padding:13px 0}.fg-agenda .agenda-row time,.fg-agenda .agenda-row>.mono{font-size:8px;min-width:31px}.fg-agenda .agenda-row strong{font-size:12px}.fg-agenda .agenda-row small{font-size:8px}.fg-agenda-foot{font-size:6px;gap:10px}.fg-agenda-foot>span:first-child{font-size:6px}.fg-ribbon{font-size:25px;gap:22px;padding:17px 0}.fg-ribbon>i{font-size:33px}.fg-after{padding-top:28px;padding-bottom:28px;gap:20px}.fg-after>p{font-size:11px}.fg-after>div{gap:25px}.fg-after>div>span{font-size:29px}.fg-after-note{max-width:100px;font-size:7px;line-height:1.6}}
+@media(max-width:820px) and (min-width:701px){.fg-date{width:222px;height:222px;padding-top:18px}.fg-day-number{font-size:83px;margin-top:9px}.fg-circle-label{font-size:6px}.fg-day-name{font-size:6px}.fg-day-buttons{margin-top:12px}.fg-day-buttons button{width:42px;height:40px}.fg-headline h1{font-size:17vw}.fg-heading-caption{font-size:7px}.fg-intro h2{font-size:31px}.fg-agenda{padding:20px 16px}.fg-agenda .agenda-row{gap:9px}.fg-agenda .agenda-row strong{font-size:11px}.fg-agenda .agenda-row small{font-size:7px}.fg-agenda .agenda-row time,.fg-agenda .agenda-row>.mono{min-width:29px;font-size:8px}.fg-agenda h2{font-size:19px}.fg-agenda-foot>span:last-child{max-width:87px;line-height:1.5}.fg-entry-button strong{font-size:16px}.fg-entry-arrow{font-size:30px}.fg-entry-button{padding-bottom:17px}}
+@media(max-width:700px){.festival .nav{height:60px;padding:0 6%;gap:15px}.festival .brand{font-size:16px}.festival .nav-links{gap:13px}.festival .nav button,.festival .case-back{font-size:9px}.fg-poster{padding:23px 7% 29px}.fg-edition{font-size:6px;letter-spacing:.01em;gap:10px;margin-bottom:35px}.fg-edition>span:nth-child(2){margin:0 0 0 auto;font-size:6px}.fg-edition>span:last-child{display:none}.fg-layout{grid-template-columns:1.1fr .9fr;grid-template-rows:auto auto auto auto;gap:27px 12px}.fg-headline{grid-column:1/-1;grid-row:1;padding-bottom:0}.fg-headline h1{font-size:29.1vw;line-height:.78;letter-spacing:-.09em}.fg-headline-kicker{font-size:6px;right:2px;top:3px;line-height:1.4}.fg-heading-caption{font-size:7px;letter-spacing:.21em;margin-top:20px;padding-left:3px}.fg-wordmark-dot{font-size:9px;margin:8px 0 0 7px}.fg-intro{grid-column:1/-1;grid-row:2;padding:4px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:14px 12px;align-items:start}.fg-tiny-label{font-size:5px;grid-column:1/-1}.fg-intro h2{font-size:33px;line-height:1.12;margin:0;letter-spacing:-.065em}.fg-intro>p{font-size:9px;line-height:1.9;margin:0;padding-top:0}.fg-location{grid-column:1/-1;font-size:7px;margin-top:2px;gap:9px}.fg-location b{font-size:8px}.fg-location-marker{font-size:30px}.fg-date{grid-column:1;grid-row:3;width:174px;height:174px;justify-self:start;align-self:center;padding:16px 11px 10px;transform:rotate(5deg)}.fg-date>*{transform:rotate(-5deg)}.fg-circle-label{font-size:5px;letter-spacing:.06em}.fg-day-number{font-size:67px;line-height:.9;margin:8px 7px 3px 0}.fg-day-name{font-size:5px;letter-spacing:0}.fg-day-buttons{gap:3px;margin:10px 0 6px}.fg-day-buttons button{width:42px;height:38px;padding:6px 2px;gap:3px;align-items:center}.fg-day-buttons b{font-size:12px}.fg-day-buttons button>span{font-size:5px}.fg-circle-foot{font-size:4px;letter-spacing:.02em}.fg-entry{grid-column:2;grid-row:3;width:100%;max-width:160px;aspect-ratio:.94;align-self:center;justify-self:end;transform:rotate(-8deg);margin:0 -1px 0 0}.fg-entry-button{padding-bottom:15px}.fg-entry-arrow{font-size:29px;margin-bottom:5px}.fg-entry-button strong{font-size:15px;line-height:1.15}.fg-entry-button small{font-size:5px;letter-spacing:.04em;margin-top:7px}.fg-agenda{grid-column:1/-1;grid-row:4;padding:24px 23px 19px;min-height:356px;margin-top:2px}.fg-agenda>header{padding-bottom:20px;gap:20px}.fg-agenda h2{font-size:24px;line-height:1.2}.fg-agenda>header>div>span{font-size:7px;margin-bottom:10px}.fg-program-stamp>span{font-size:6px}.fg-program-stamp>b{font-size:27px}.fg-agenda .agenda-row{gap:17px;min-height:73px;padding:15px 0}.fg-agenda .agenda-row strong{font-size:13px;line-height:1.5;margin-bottom:5px}.fg-agenda .agenda-row small{font-size:9px;line-height:1.5}.fg-agenda .agenda-row time,.fg-agenda .agenda-row>.mono{font-size:9px;min-width:35px}.fg-agenda-foot{font-size:7px;padding-top:15px;gap:12px;line-height:1.6}.fg-agenda-foot>span:first-child{font-size:6px;align-self:center}.fg-ribbon{font-size:23px;justify-content:start;gap:22px;padding:16px 20px}.fg-ribbon>i{font-size:30px}.fg-after{padding:27px 7% 28px;gap:25px;display:grid;grid-template-columns:1fr}.fg-after>p{font-size:15px;line-height:1.6}.fg-after>div{gap:0;justify-content:space-between}.fg-after>div>span{font-size:36px}.fg-after small{font-size:7px;margin-top:8px}.fg-after-note{font-size:7px;color:#838378}.festival .footer{font-size:7px;line-height:1.8;padding:20px 7%;gap:20px}.festival .footer>span{max-width:48%}.festival .footer button{font-size:8px;line-height:1.7;text-align:right}}
+@media(max-width:370px){.fg-date{width:158px;height:158px;padding-top:13px}.fg-day-number{font-size:58px;margin-top:7px}.fg-day-buttons{margin-top:8px;gap:2px}.fg-day-buttons button{width:39px;height:35px}.fg-entry-button strong{font-size:13px}.fg-entry-arrow{font-size:25px}.fg-entry-button{padding-bottom:12px}.fg-entry-button small{margin-top:5px}.fg-agenda{padding:22px 19px}.fg-agenda .agenda-row strong{font-size:12px}.fg-intro h2{font-size:30px}.fg-intro>p{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.fg-entry-button{transition:none}}

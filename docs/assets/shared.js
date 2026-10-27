@@ -33,6 +33,10 @@
   ];
   $$('[data-day]').forEach(b => b.addEventListener('click', () => {
     const n=Number(b.dataset.day); pressed('[data-day]',b);
+    const day=['06','07','08'][n], short=['FRI','SAT','SUN'][n];
+    $$('[data-festival-day], [data-festival-day-mini]').forEach(el=>el.textContent=day);
+    $$('[data-festival-day-short]').forEach(el=>el.textContent=short);
+    $$('[data-festival-weekday]').forEach(el=>el.textContent=['FRIDAY / 星期五','SATURDAY / 星期六','SUNDAY / 星期日'][n]);
     $('#agenda').innerHTML=agendas[n].map(a=>`<div class="agenda-row"><span class="mono">${a[0]}</span><div><strong>${a[1]}</strong><small>${a[2]}</small></div></div>`).join('');
   }));
   if(document.body.classList.contains('lens')) $('.aperture-control input').addEventListener('input',e=>{

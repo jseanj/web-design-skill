@@ -46,6 +46,9 @@ try{
       await dialogCheck();await page.locator('[data-origin="0"]').click();
     }else if(c.slug==='offgrid-festival'){
       await page.locator('[data-day="1"]').click();assert.ok((await text('#agenda')).includes('把城市当成画布'));
+      assert.equal(await text('[data-festival-day]'),'07');
+      assert.equal(await text('[data-festival-day-mini]'),'07');
+      assert.equal(await text('[data-festival-day-short]'),'SAT');
       await dialogCheck();await page.locator('[data-day="0"]').click();
     }else if(c.slug==='aperture-lens'){
       await page.locator('input[type=range]').fill('5');assert.equal(await text('[data-fstop]'),'f/8');
@@ -104,6 +107,16 @@ try{
         if(c.slug==='loop-impact'){await page.locator('#frequency').fill('4');assert.equal(await text('[data-annual]'),'208');await page.locator('#frequency').fill('3');}
         else if(c.slug==='field-notes'){await page.locator('[data-article="main"]').click();assert.equal(await page.locator('#detail-dialog').isVisible(),true);await page.keyboard.press('Escape');}
         else {
+          if(c.slug==='offgrid-festival'){
+            await page.locator('[data-day="2"]').click();
+            assert.equal(await text('[data-festival-day]'),'08');
+            assert.ok((await text('#agenda')).includes('下一次，从这里开始'));
+            await page.locator('.fg-entry-button').focus();
+            await page.keyboard.press('Enter');
+            assert.equal(await page.locator('#detail-dialog').isVisible(),true);
+            await page.keyboard.press('Escape');
+            await page.locator('[data-day="0"]').click();
+          }
           if(c.slug==='coffee-passport'){
             assert.equal(await page.locator('.roast-mobile-profile').isVisible(),true);
             await page.locator('[data-origin="1"]').click();

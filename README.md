@@ -73,7 +73,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 | # | Brand / context | Main method | Structural move |
 | --- | --- | --- | --- |
 | 01 | [ORIGIN CLUB — Coffee subscription](docs/case-studies/coffee-passport.md) | Borrow from real objects · 抄现实 | Coffee pouch as content carrier |
-| 02 | [OFF / GRID — Design festival](docs/case-studies/offgrid-festival.md) | Compose with geometry · 圆、方、三角 | Circle / triangle / paper agenda |
+| 02 | [OFF / GRID — Design festival](docs/case-studies/offgrid-festival.md) | Compose with geometry · 圆、方、三角 | Circle / date; square / programme; triangle / entry |
 | 03 | [APERTURE — Camera lens](docs/case-studies/aperture-lens.md) | Frame a revealing fragment · 断臂之美 | Eye, hand and lens crop |
 | 04 | [SŌL — Independent fragrance](docs/case-studies/sol-fragrance.md) | Create emphasis through restraint · 欲擒故纵 | White space and a continuous line |
 | 05 | [SHIFT — Urban running club](docs/case-studies/shift-running.md) | Shift the composition · 乾坤大挪移 | A tilted route ticket |
@@ -95,11 +95,11 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 ### 02 · OFF / GRID — Design festival
 
-**Brief:** Give a creative festival a recognizable character and a readable agenda.
+**Brief:** Give a design festival a bold graphic identity and an agenda people can use.
 
 ![OFF / GRID desktop concept](docs/previews/offgrid-festival.jpg)
 
-**Design decision:** A circle, triangles and a rectangular paper belly form one festival creature. The belly contains the agenda, which changes with the selected day.
+**Design decision:** Oversized typography anchors a geometric poster. A fluorescent circle selects the day, a black square holds the changing programme, and a pink triangle is the entry button. The shapes organize the real content.
 
 [Case study & reproduction brief](docs/case-studies/offgrid-festival.md) · [Full page](docs/previews/offgrid-festival-full.jpg) · [Mobile](docs/previews/offgrid-festival-mobile.png) · [Layout skeleton](docs/previews/offgrid-festival-skeleton.jpg) · [HTML source](docs/examples/offgrid-festival/index.html)
 
