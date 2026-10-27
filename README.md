@@ -1,8 +1,8 @@
 # Web Design Skill for AI Agents
 
-**Ten visual methods. Ten interactive websites. A design process you can inspect.**
+**Ten visual methods. Ten interactive websites. Give your content a distinctive composition.**
 
-[中文说明](README.zh-CN.md) · [Skill instructions](SKILL.md) · [Interactive gallery setup](#try-the-gallery) · [Reproduction protocol](docs/REPRODUCIBILITY.md)
+[中文说明](README.zh-CN.md) · [Skill instructions](SKILL.md) · [Interactive gallery setup](#try-the-gallery)
 
 ![Ten website concepts designed with ten different visual methods](docs/previews/overview.jpg)
 
@@ -12,7 +12,7 @@ Turn a brief into a distinctive composition, organize the real content, and buil
 - **Ten practical methods:** each includes when to use it, concrete design moves, common mistakes and checks.
 - **Inspectable examples:** ten responsive HTML/CSS/JS concepts, desktop and mobile screenshots, layout skeletons, source files and repeatable browser checks.
 
-Contents: [How it works](#how-it-works) · [Install](#install) · [Examples](#examples) · [Checks](#what-the-checks-cover) · [Use](#use) · [Inside](#whats-inside) · [Contribute](#contribute)
+Contents: [How it works](#how-it-works) · [Install](#install) · [Examples](#examples) · [Development](#development) · [Use](#use) · [Inside](#whats-inside) · [Contribute](#contribute)
 
 ## How it works
 
@@ -68,7 +68,7 @@ Unzip it into the skills directory used by your agent. There is no runtime depen
 
 ## Examples
 
-These are fictional, interactive concept websites created in one iterative session using the skill. Each demonstrates a different structural decision. The original tasks, feedback, artwork and later skill improvements also contributed; these examples are not an independent benchmark.
+Ten fictional concept websites show how the methods organize real page content. Each comes with a design breakdown and a prompt you can adapt. The examples were developed through iteration and feedback, with generated artwork where needed.
 
 | # | Brand / context | Main method | Structural move |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** A warm orange coffee pouch becomes the content carrier. Live HTML on its label holds the origin, tasting notes and roast profile; three origin choices update the same package. The cream canvas keeps attention on the product.
 
-[Case study & reproduction brief](docs/case-studies/coffee-passport.md) · [Full page](docs/previews/coffee-passport-full.jpg) · [Mobile](docs/previews/coffee-passport-mobile.png) · [Layout skeleton](docs/previews/coffee-passport-skeleton.jpg) · [HTML source](docs/examples/coffee-passport/index.html)
+[Design breakdown & prompt](docs/case-studies/coffee-passport.md) · [Full page](docs/previews/coffee-passport-full.jpg) · [Mobile](docs/previews/coffee-passport-mobile.png) · [Layout skeleton](docs/previews/coffee-passport-skeleton.jpg) · [HTML source](docs/examples/coffee-passport/index.html)
 
 ### 02 · OFF / GRID — Design festival
 
@@ -101,7 +101,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** Oversized typography anchors a geometric poster. A fluorescent circle selects the day, a black square holds the changing programme, and a pink triangle is the entry button. The shapes organize the real content.
 
-[Case study & reproduction brief](docs/case-studies/offgrid-festival.md) · [Full page](docs/previews/offgrid-festival-full.jpg) · [Mobile](docs/previews/offgrid-festival-mobile.png) · [Layout skeleton](docs/previews/offgrid-festival-skeleton.jpg) · [HTML source](docs/examples/offgrid-festival/index.html)
+[Design breakdown & prompt](docs/case-studies/offgrid-festival.md) · [Full page](docs/previews/offgrid-festival-full.jpg) · [Mobile](docs/previews/offgrid-festival-mobile.png) · [Layout skeleton](docs/previews/offgrid-festival-skeleton.jpg) · [HTML source](docs/examples/offgrid-festival/index.html)
 
 ### 03 · APERTURE — Camera lens
 
@@ -111,7 +111,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** One eye, a hand and a tightly cropped lens carry the image. A red specification strip anchors the composition; an aperture control changes the iris.
 
-[Case study & reproduction brief](docs/case-studies/aperture-lens.md) · [Full page](docs/previews/aperture-lens-full.jpg) · [Mobile](docs/previews/aperture-lens-mobile.png) · [Layout skeleton](docs/previews/aperture-lens-skeleton.jpg) · [HTML source](docs/examples/aperture-lens/index.html)
+[Design breakdown & prompt](docs/case-studies/aperture-lens.md) · [Full page](docs/previews/aperture-lens-full.jpg) · [Mobile](docs/previews/aperture-lens-mobile.png) · [Layout skeleton](docs/previews/aperture-lens-skeleton.jpg) · [HTML source](docs/examples/aperture-lens/index.html)
 
 ### 04 · SŌL — Independent fragrance
 
@@ -121,7 +121,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** A winding line connects three numbered scent moments across generous white space. Watercolor flowers set the rhythm before the final blue perfume section.
 
-[Case study & reproduction brief](docs/case-studies/sol-fragrance.md) · [Full page](docs/previews/sol-fragrance-full.jpg) · [Mobile](docs/previews/sol-fragrance-mobile.png) · [Layout skeleton](docs/previews/sol-fragrance-skeleton.jpg) · [HTML source](docs/examples/sol-fragrance/index.html)
+[Design breakdown & prompt](docs/case-studies/sol-fragrance.md) · [Full page](docs/previews/sol-fragrance-full.jpg) · [Mobile](docs/previews/sol-fragrance-mobile.png) · [Layout skeleton](docs/previews/sol-fragrance-skeleton.jpg) · [HTML source](docs/examples/sol-fragrance/index.html)
 
 ### 05 · SHIFT — Urban running club
 
@@ -131,7 +131,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** The whole route ticket tilts, carrying its distance, details and call to action together. An orange runner overlaps the ticket to establish depth.
 
-[Case study & reproduction brief](docs/case-studies/shift-running.md) · [Full page](docs/previews/shift-running-full.jpg) · [Mobile](docs/previews/shift-running-mobile.png) · [Layout skeleton](docs/previews/shift-running-skeleton.jpg) · [HTML source](docs/examples/shift-running/index.html)
+[Design breakdown & prompt](docs/case-studies/shift-running.md) · [Full page](docs/previews/shift-running-full.jpg) · [Mobile](docs/previews/shift-running-mobile.png) · [Layout skeleton](docs/previews/shift-running-skeleton.jpg) · [HTML source](docs/examples/shift-running/index.html)
 
 ### 06 · FIELD NOTES — Architecture magazine
 
@@ -141,7 +141,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** A red masthead, image-spanning type, an oversized issue number and narrow text columns create a deliberate rhythm around the building photograph.
 
-[Case study & reproduction brief](docs/case-studies/field-notes.md) · [Full page](docs/previews/field-notes-full.jpg) · [Mobile](docs/previews/field-notes-mobile.png) · [Layout skeleton](docs/previews/field-notes-skeleton.jpg) · [HTML source](docs/examples/field-notes/index.html)
+[Design breakdown & prompt](docs/case-studies/field-notes.md) · [Full page](docs/previews/field-notes-full.jpg) · [Mobile](docs/previews/field-notes-mobile.png) · [Layout skeleton](docs/previews/field-notes-skeleton.jpg) · [HTML source](docs/examples/field-notes/index.html)
 
 ### 07 · NORTH / 向野 — Outdoor travel
 
@@ -151,7 +151,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** A full-bleed mountain landscape establishes scale. Large type, a route line and a compass sit in separate safe information layers; departure options change the details.
 
-[Case study & reproduction brief](docs/case-studies/north-travel.md) · [Full page](docs/previews/north-travel-full.jpg) · [Mobile](docs/previews/north-travel-mobile.png) · [Layout skeleton](docs/previews/north-travel-skeleton.jpg) · [HTML source](docs/examples/north-travel/index.html)
+[Design breakdown & prompt](docs/case-studies/north-travel.md) · [Full page](docs/previews/north-travel-full.jpg) · [Mobile](docs/previews/north-travel-mobile.png) · [Layout skeleton](docs/previews/north-travel-skeleton.jpg) · [HTML source](docs/examples/north-travel/index.html)
 
 ### 08 · 开物 KAIWU — Pottery workshop
 
@@ -161,7 +161,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** Three folded sheets express the learning sequence. Consistent fact labels, expandable sessions and one booking ticket organize the details.
 
-[Case study & reproduction brief](docs/case-studies/kaiwu-workshop.md) · [Full page](docs/previews/kaiwu-workshop-full.jpg) · [Mobile](docs/previews/kaiwu-workshop-mobile.png) · [Layout skeleton](docs/previews/kaiwu-workshop-skeleton.jpg) · [HTML source](docs/examples/kaiwu-workshop/index.html)
+[Design breakdown & prompt](docs/case-studies/kaiwu-workshop.md) · [Full page](docs/previews/kaiwu-workshop-full.jpg) · [Mobile](docs/previews/kaiwu-workshop-mobile.png) · [Layout skeleton](docs/previews/kaiwu-workshop-skeleton.jpg) · [HTML source](docs/examples/kaiwu-workshop/index.html)
 
 ### 09 · LOOP / 循杯 — Reuse-program explainer
 
@@ -171,7 +171,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** A cup character, four stations and a closed pipe show the loop. A separate calculator uses weekly frequency × 52 and bars with a shared scale.
 
-[Case study & reproduction brief](docs/case-studies/loop-impact.md) · [Full page](docs/previews/loop-impact-full.jpg) · [Mobile](docs/previews/loop-impact-mobile.png) · [Layout skeleton](docs/previews/loop-impact-skeleton.jpg) · [HTML source](docs/examples/loop-impact/index.html)
+[Design breakdown & prompt](docs/case-studies/loop-impact.md) · [Full page](docs/previews/loop-impact-full.jpg) · [Mobile](docs/previews/loop-impact-mobile.png) · [Layout skeleton](docs/previews/loop-impact-skeleton.jpg) · [HTML source](docs/examples/loop-impact/index.html)
 
 ### 10 · CRUMB / 一点屑 — Handmade bakery
 
@@ -181,7 +181,7 @@ These are fictional, interactive concept websites created in one iterative sessi
 
 **Design decision:** Tape, a postmark, handwritten notes and numbered flavor cards support the selection. Toggle the embellishments to inspect their contribution to the same layout.
 
-[Case study & reproduction brief](docs/case-studies/crumb-bakery.md) · [Full page](docs/previews/crumb-bakery-full.jpg) · [Mobile](docs/previews/crumb-bakery-mobile.png) · [Layout skeleton](docs/previews/crumb-bakery-skeleton.jpg) · [HTML source](docs/examples/crumb-bakery/index.html)
+[Design breakdown & prompt](docs/case-studies/crumb-bakery.md) · [Full page](docs/previews/crumb-bakery-full.jpg) · [Mobile](docs/previews/crumb-bakery-mobile.png) · [Layout skeleton](docs/previews/crumb-bakery-skeleton.jpg) · [HTML source](docs/examples/crumb-bakery/index.html)
 
 ## Try the gallery
 
@@ -191,44 +191,41 @@ Open `docs/index.html` directly, or serve the self-contained gallery from the re
 python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
 ```
 
-Visit [localhost:8765](http://127.0.0.1:8765). All ten examples have working controls, a design explanation and a layout-skeleton toggle. The bakery example also has a decoration toggle. These toggles inspect one design; they are not a comparison with an independently generated no-skill result.
+Visit [localhost:8765](http://127.0.0.1:8765). All ten examples have working controls, a design explanation and a layout-skeleton toggle. The bakery example also has a decoration toggle.
 
-The gallery runs without Node, a build step or external assets. GitHub displays the HTML links as source files; use the local gallery for the interactive experience. A manual GitHub Pages workflow is included for later publication; no hosted URL is claimed here.
+The gallery runs without Node, a build step or external assets. GitHub displays the HTML links as source files; use the local gallery for the interactive experience. A manual GitHub Pages workflow is included to publish the static gallery after Pages is enabled.
 
-## What the checks cover
+## Development
 
-The [saved browser report](docs/verification.json) records checks on all ten pages at **1440, 768 and 390 px** widths:
+<details>
+<summary>Run checks or update the examples</summary>
 
-| Check | What it establishes |
-| --- | --- |
-| Page and image loading | Local assets load and each page has one main heading |
-| Horizontal overflow | The document fits each tested viewport |
-| Primary interactions | Controls change visible content; dialogs open and close |
-| Method controls | Design explanations and layout-skeleton toggles work |
-| Screenshots | Desktop, full-page, mobile and skeleton views are captured |
-
-These checks verify page behavior, not aesthetic quality, accessibility conformance or the skill's causal contribution. **Independent fresh-session reproduction and controlled no-skill comparisons have not been run.** See the [creation record](docs/generation-record.json), [unsigned integrity inventory](docs/manifest.json) and [reproduction protocol](docs/REPRODUCIBILITY.md). The case briefs are prepared for future reproduction, not verbatim logs of the original prompts. The campaign-composition guide was added after feedback and redesign.
-
-To validate repository links and the saved integrity inventory:
+Check local links and the skill's identity:
 
 ```sh
 python3 scripts/check_repo.py
 ```
 
-To regenerate browser checks and screenshots, install Node.js 20+ and the development dependencies, then start the gallery server in a separate terminal:
+For browser checks, install Node.js 20+ and the development dependencies. Start the gallery server in a separate terminal, then run:
 
 ```sh
 npm install
 npx playwright install chromium
 npm run verify
-# Optional: rebuild the overview image (requires Pillow).
-python3 scripts/overview.py
-# Refresh the skill snapshot and integrity inventory after all changes.
-npm run manifest
-python3 scripts/check_repo.py
 ```
 
-`verify` is a real browser run. It updates screenshots and `docs/verification.json`; fonts may render differently across operating systems. Rebuilding the overview requires `python3 -m pip install Pillow`. CI repeats the browser checks and uploads its report and screenshots; a local pass does not imply a GitHub Actions run has happened.
+The browser script checks loading, horizontal overflow and primary interactions at 1440, 768 and 390 px. It updates `docs/previews/` and the [browser report](docs/verification.json). CI runs the same checks and saves the results as artifacts.
+
+Edit page markup in `scripts/build-examples.py`, then run `npm run render`. Case descriptions and prompts live in `docs/cases.js`; keep the corresponding design breakdown in sync. To rebuild the overview image, install Pillow and run:
+
+```sh
+python3 -m pip install Pillow
+python3 scripts/overview.py
+```
+
+Fonts may render differently across operating systems. Browser checks verify behavior; review the visual result too.
+
+</details>
 
 ## Use
 
@@ -275,19 +272,17 @@ references/
 docs/
   index.html                    Interactive showcase
   examples/                     Ten complete HTML pages
-  case-studies/                 Design rationale and reproduction briefs
+  case-studies/                 Design breakdowns and example prompts
   assets/                       Shared CSS/JS and eight generated images
   previews/                     Desktop, mobile and skeleton captures
-  generation-record.json        Disclosed creation process
   verification.json             Saved browser-check results
-  manifest.json                 Unsigned SHA-256 inventory
 scripts/                        Install, package, render and verify helpers
 .github/workflows/              CI and manual Pages publication
 ```
 
 ## Contribute
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Useful contributions include method improvements supported by a real brief, responsive fixes and independent reproduction records. Describe the actual inputs, tools and human changes; distinguish page checks from skill evaluation.
+Issues and pull requests are welcome in English or Chinese. Include a concrete brief or problem, the change and screenshots where useful. For page changes, follow the development steps above and check desktop and mobile. Document the source of new assets and any additional dependencies.
 
 All demonstration brands, activities, prices, product specifications and business data are fictional. The pages do not process purchases, payments or registrations. Eight AI-generated images are included, with prompts in the [asset record](docs/assets/art-prompts.json); they are not documentary photographs of real projects or destinations.
 

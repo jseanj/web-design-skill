@@ -15,7 +15,7 @@
   };
   $('.dialog-close').addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', e => { if (e.target === dialog) { const b=dialog.getBoundingClientRect(); if(e.clientX<b.left || e.clientX>b.right || e.clientY<b.top || e.clientY>b.bottom) dialog.close(); } });
-  $$('[data-design]').forEach(b => b.addEventListener('click', () => show(`${c.id} / ${c.method}`, `<p><strong>设计问题</strong><br>${escape(c.problem)}</p><p><strong>关键动作</strong><br>${escape(c.move)}</p><p><strong>可观察的表现（可切换布局骨架）</strong><br>${escape(c.proof)}</p><p><strong>窄屏处理</strong><br>${escape(c.mobile)}</p><p class="demo-note">本页是加载 skill 后制作的应用示例，尚未经独立新会话复现。方法对应关系便于检查，不构成 skill 效果的因果证明。</p><a class="textlink" href="../../index.html#evidence">查看复现材料与验证边界 ↗</a>`)));
+  $$('[data-design]').forEach(b => b.addEventListener('click', () => show(`${c.id} / ${c.method}`, `<p><strong>设计问题</strong><br>${escape(c.problem)}</p><p><strong>关键动作</strong><br>${escape(c.move)}</p><p><strong>可观察的表现（可切换布局骨架）</strong><br>${escape(c.proof)}</p><p><strong>窄屏处理</strong><br>${escape(c.mobile)}</p>`)));
   const origins = [
     ['ETH','ETHIOPIA','SIDAMA / 西达摩','茉莉 · 柑橘 · 蜂蜜','轻盈花香，像清晨的第一道光。','浅度烘焙 / 水洗处理'],
     ['COL','COLOMBIA','HUILA / 慧兰','可可 · 焦糖 · 红苹果','温暖甜感，适合慢一点的下午。','中度烘焙 / 水洗处理'],

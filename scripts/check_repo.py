@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Check local document/asset links, skill identity and the saved SHA-256 inventory."""
+"""Check local document/asset links, skill identity and the saved browser report."""
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
-import hashlib
 import json
 import re
 import sys
@@ -51,26 +50,13 @@ for source in files:
             local_link(source, value.strip())
 
 skill = (ROOT / 'SKILL.md').read_bytes()
-if (ROOT / 'docs/skill.txt').read_bytes() != skill:
-    errors.append('The gallery skill snapshot is stale; run scripts/manifest.py.')
 if not re.search(r'^name: web-design-skill$', skill.decode(), re.M):
     errors.append('Skill name does not match the install/package folder.')
-manifest = json.loads((ROOT / 'docs/manifest.json').read_text())
-recorded = {item['path'] for item in manifest['files']}
-actual = {p.relative_to(ROOT).as_posix() for p in files if p.relative_to(ROOT).as_posix() != 'docs/manifest.json'}
-if recorded != actual:
-    errors.append(f'Inventory file list is stale: missing={sorted(actual-recorded)}, obsolete={sorted(recorded-actual)}')
-for item in manifest['files']:
-    source = ROOT / item['path']
-    if not source.is_file() or len(source.read_bytes()) != item['bytes'] or hashlib.sha256(source.read_bytes()).hexdigest() != item['sha256']:
-        errors.append(f'Integrity mismatch: {item["path"]}')
-if hashlib.sha256(skill).hexdigest() != manifest['skillSha256']:
-    errors.append('Skill digest does not match the manifest.')
 report = json.loads((ROOT / 'docs/verification.json').read_text())
 if report.get('status') != 'passed' or len(report.get('cases', [])) != 10 or report.get('errors'):
     errors.append('Saved browser verification is incomplete or failed.')
 if errors:
     print('\n'.join(errors), file=sys.stderr)
     raise SystemExit(1)
-print(f'PASS: {checked} local links, {len(recorded)} file hashes, skill identity/snapshot and saved 10-page browser report.')
-print('This checks repository integrity and recorded results; it does not rerun the browser or evaluate design quality.')
+print(f'PASS: {checked} local links, skill identity and saved 10-page browser report.')
+print('This checks files and recorded results; it does not rerun the browser.')

@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Check saved links and integrity inventory
+      - name: Check local links and skill identity
         run: python3 scripts/check_repo.py
       - name: Package portable skill
         run: python3 scripts/package_skill.py

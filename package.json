@@ -6,7 +6,6 @@
   "scripts": {
     "preview": "python3 -m http.server 8765 --bind 127.0.0.1 --directory docs",
     "verify": "node scripts/verify.mjs",
-    "manifest": "python3 scripts/manifest.py",
     "render": "python3 scripts/build-examples.py",
     "check": "python3 scripts/check_repo.py",
     "package:skill": "python3 scripts/package_skill.py"

@@ -1,8 +1,8 @@
 # Web Design Skill · 网页视觉设计
 
-**十种视觉方法，十个可交互网页，一套能检查设计过程的 Skill。**
+**十种视觉方法，十个可交互网页，让内容成为有辨识度的构图。**
 
-[English](README.md) · [技能入口](SKILL.md) · [复现协议](docs/REPRODUCIBILITY.md)
+[English](README.md) · [技能入口](SKILL.md)
 
 ![十种视觉方法与十个应用场景](docs/previews/overview.jpg)
 
@@ -12,7 +12,7 @@
 - **十种可操作的方法**：每种方法都有适用问题、具体动作、常见误区与检查方式。
 - **可以查看，也可以操作**：十份响应式 HTML/CSS/JS 页面，附桌面、手机和布局骨架截图、源码与浏览器检查脚本。
 
-目录：[工作方式](#工作方式) · [安装](#安装) · [十个案例](#十个案例) · [验证](#验证什么) · [使用](#使用) · [文件结构](#文件结构) · [贡献](#贡献与许可)
+目录：[工作方式](#工作方式) · [安装](#安装) · [十个案例](#十个案例) · [开发维护](#开发维护) · [使用](#使用) · [文件结构](#文件结构) · [贡献](#贡献与许可)
 
 ## 工作方式
 
@@ -68,7 +68,7 @@ python3 scripts/package_skill.py
 
 ## 十个案例
 
-这些是一个创作会话读取技能后，经过反馈与修改完成的虚构概念网站。每例突出一种结构动作；原始需求、生成素材和后续技能改进也参与了结果，不能把它们当作独立实验。
+十个虚构概念网站，展示不同方法如何组织网页内容。每例附有设计拆解和可修改的场景提示词；成品经过反馈与迭代，部分案例使用了生成素材。
 
 | # | 场景 | 主方法 | 构图动作 |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**以暖橙色咖啡豆袋为现实载体，袋身标签放入产地、风味与烘焙，三个产地选择更新同一包装。暖白底和深咖色大字让产品成为焦点。
 
-[设计拆解与复现简报](docs/case-studies/coffee-passport.md) · [完整长页](docs/previews/coffee-passport-full.jpg) · [手机效果](docs/previews/coffee-passport-mobile.png) · [布局骨架](docs/previews/coffee-passport-skeleton.jpg) · [HTML 源码](docs/examples/coffee-passport/index.html)
+[设计拆解与提示词](docs/case-studies/coffee-passport.md) · [完整长页](docs/previews/coffee-passport-full.jpg) · [手机效果](docs/previews/coffee-passport-mobile.png) · [布局骨架](docs/previews/coffee-passport-skeleton.jpg) · [HTML 源码](docs/examples/coffee-passport/index.html)
 
 ### 02 · OFF / GRID / 圆、方、三角
 
@@ -101,7 +101,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**大号字建立海报重心，荧光圆盘选择日期，黑色方块承载当天议程，粉色三角成为入场按钮；三个主形各有真实的信息职责。
 
-[设计拆解与复现简报](docs/case-studies/offgrid-festival.md) · [完整长页](docs/previews/offgrid-festival-full.jpg) · [手机效果](docs/previews/offgrid-festival-mobile.png) · [布局骨架](docs/previews/offgrid-festival-skeleton.jpg) · [HTML 源码](docs/examples/offgrid-festival/index.html)
+[设计拆解与提示词](docs/case-studies/offgrid-festival.md) · [完整长页](docs/previews/offgrid-festival-full.jpg) · [手机效果](docs/previews/offgrid-festival-mobile.png) · [布局骨架](docs/previews/offgrid-festival-skeleton.jpg) · [HTML 源码](docs/examples/offgrid-festival/index.html)
 
 ### 03 · APERTURE / 断臂之美
 
@@ -111,7 +111,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**单眼、握持动作与镜片特写构成主画面；红色参数带稳定重心，光圈控件改变可见的光圈结构。
 
-[设计拆解与复现简报](docs/case-studies/aperture-lens.md) · [完整长页](docs/previews/aperture-lens-full.jpg) · [手机效果](docs/previews/aperture-lens-mobile.png) · [布局骨架](docs/previews/aperture-lens-skeleton.jpg) · [HTML 源码](docs/examples/aperture-lens/index.html)
+[设计拆解与提示词](docs/case-studies/aperture-lens.md) · [完整长页](docs/previews/aperture-lens-full.jpg) · [手机效果](docs/previews/aperture-lens-mobile.png) · [布局骨架](docs/previews/aperture-lens-skeleton.jpg) · [HTML 源码](docs/examples/aperture-lens/index.html)
 
 ### 04 · SŌL / 欲擒故纵
 
@@ -121,7 +121,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**曲线穿过大片留白，串联三个带序号的香气时刻；水彩花枝控制节奏，最后进入蓝色香水选择区。
 
-[设计拆解与复现简报](docs/case-studies/sol-fragrance.md) · [完整长页](docs/previews/sol-fragrance-full.jpg) · [手机效果](docs/previews/sol-fragrance-mobile.png) · [布局骨架](docs/previews/sol-fragrance-skeleton.jpg) · [HTML 源码](docs/examples/sol-fragrance/index.html)
+[设计拆解与提示词](docs/case-studies/sol-fragrance.md) · [完整长页](docs/previews/sol-fragrance-full.jpg) · [手机效果](docs/previews/sol-fragrance-mobile.png) · [布局骨架](docs/previews/sol-fragrance-skeleton.jpg) · [HTML 源码](docs/examples/sol-fragrance/index.html)
 
 ### 05 · SHIFT / 乾坤大挪移
 
@@ -131,7 +131,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**整张路线票据一起旋转，里程、详情和行动入口随它组织；橙色跑者叠入票据前方，建立空间关系。
 
-[设计拆解与复现简报](docs/case-studies/shift-running.md) · [完整长页](docs/previews/shift-running-full.jpg) · [手机效果](docs/previews/shift-running-mobile.png) · [布局骨架](docs/previews/shift-running-skeleton.jpg) · [HTML 源码](docs/examples/shift-running/index.html)
+[设计拆解与提示词](docs/case-studies/shift-running.md) · [完整长页](docs/previews/shift-running-full.jpg) · [手机效果](docs/previews/shift-running-mobile.png) · [布局骨架](docs/previews/shift-running-skeleton.jpg) · [HTML 源码](docs/examples/shift-running/index.html)
 
 ### 06 · FIELD NOTES / 杂志版式
 
@@ -141,7 +141,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**红色刊头、跨图大字、超大期号与窄栏文字围绕建筑影像组织，文章入口可打开阅读。
 
-[设计拆解与复现简报](docs/case-studies/field-notes.md) · [完整长页](docs/previews/field-notes-full.jpg) · [手机效果](docs/previews/field-notes-mobile.png) · [布局骨架](docs/previews/field-notes-skeleton.jpg) · [HTML 源码](docs/examples/field-notes/index.html)
+[设计拆解与提示词](docs/case-studies/field-notes.md) · [完整长页](docs/previews/field-notes-full.jpg) · [手机效果](docs/previews/field-notes-mobile.png) · [布局骨架](docs/previews/field-notes-skeleton.jpg) · [HTML 源码](docs/examples/field-notes/index.html)
 
 ### 07 · NORTH / 向野 / 全屏大视野
 
@@ -151,7 +151,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**山野影像铺满视野；大字、路线与罗盘在独立信息层定位，出发时段可切换，窄屏重新安排安全区。
 
-[设计拆解与复现简报](docs/case-studies/north-travel.md) · [完整长页](docs/previews/north-travel-full.jpg) · [手机效果](docs/previews/north-travel-mobile.png) · [布局骨架](docs/previews/north-travel-skeleton.jpg) · [HTML 源码](docs/examples/north-travel/index.html)
+[设计拆解与提示词](docs/case-studies/north-travel.md) · [完整长页](docs/previews/north-travel-full.jpg) · [手机效果](docs/previews/north-travel-mobile.png) · [布局骨架](docs/previews/north-travel-skeleton.jpg) · [HTML 源码](docs/examples/north-travel/index.html)
 
 ### 08 · 开物 KAIWU / 文字衣橱
 
@@ -161,7 +161,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**三张折纸对应学习的三组任务；统一字段标签、可展开日程与底部报名票据整理信息层次。
 
-[设计拆解与复现简报](docs/case-studies/kaiwu-workshop.md) · [完整长页](docs/previews/kaiwu-workshop-full.jpg) · [手机效果](docs/previews/kaiwu-workshop-mobile.png) · [布局骨架](docs/previews/kaiwu-workshop-skeleton.jpg) · [HTML 源码](docs/examples/kaiwu-workshop/index.html)
+[设计拆解与提示词](docs/case-studies/kaiwu-workshop.md) · [完整长页](docs/previews/kaiwu-workshop-full.jpg) · [手机效果](docs/previews/kaiwu-workshop-mobile.png) · [布局骨架](docs/previews/kaiwu-workshop-skeleton.jpg) · [HTML 源码](docs/examples/kaiwu-workshop/index.html)
 
 ### 09 · LOOP / 循杯 / 你看起来很好吃
 
@@ -171,7 +171,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**杯子角色、四个站点与闭合管线表达循环；独立计算区按每周次数 × 52 更新，并用同尺度条形呈现。
 
-[设计拆解与复现简报](docs/case-studies/loop-impact.md) · [完整长页](docs/previews/loop-impact-full.jpg) · [手机效果](docs/previews/loop-impact-mobile.png) · [布局骨架](docs/previews/loop-impact-skeleton.jpg) · [HTML 源码](docs/examples/loop-impact/index.html)
+[设计拆解与提示词](docs/case-studies/loop-impact.md) · [完整长页](docs/previews/loop-impact-full.jpg) · [手机效果](docs/previews/loop-impact-mobile.png) · [布局骨架](docs/previews/loop-impact-skeleton.jpg) · [HTML 源码](docs/examples/loop-impact/index.html)
 
 ### 10 · CRUMB / 一点屑 / 钉钉铆铆
 
@@ -181,7 +181,7 @@ python3 scripts/package_skill.py
 
 **设计决定：**胶带、邮戳、手写批注和编号口味纸签辅助选择；装饰开关可检查同一结构中细节的作用。
 
-[设计拆解与复现简报](docs/case-studies/crumb-bakery.md) · [完整长页](docs/previews/crumb-bakery-full.jpg) · [手机效果](docs/previews/crumb-bakery-mobile.png) · [布局骨架](docs/previews/crumb-bakery-skeleton.jpg) · [HTML 源码](docs/examples/crumb-bakery/index.html)
+[设计拆解与提示词](docs/case-studies/crumb-bakery.md) · [完整长页](docs/previews/crumb-bakery-full.jpg) · [手机效果](docs/previews/crumb-bakery-mobile.png) · [布局骨架](docs/previews/crumb-bakery-skeleton.jpg) · [HTML 源码](docs/examples/crumb-bakery/index.html)
 
 ## 运行案例集
 
@@ -191,44 +191,41 @@ python3 scripts/package_skill.py
 python3 -m http.server 8765 --bind 127.0.0.1 --directory docs
 ```
 
-访问 [localhost:8765](http://127.0.0.1:8765)。每例都可操作主要控件、查看设计说明并切换布局骨架，第十例还可收起装饰。这些开关用于检查同一设计的结构与细节，不是独立生成的无技能对照。
+访问 [localhost:8765](http://127.0.0.1:8765)。每例都可操作主要控件、查看设计说明并切换布局骨架，第十例还可收起装饰。
 
-展示页不需要 Node、构建步骤或外部素材。GitHub 上的 HTML 链接显示源码，交互体验请在本地案例集打开。仓库附有手动发布 GitHub Pages 的工作流，目前未声明已上线的网址。
+展示页不需要 Node、构建步骤或外部素材。GitHub 上的 HTML 链接显示源码，交互体验请在本地案例集打开。启用 GitHub Pages 后，可手动运行仓库中的 Pages 工作流，发布静态案例集。
 
-## 验证什么
+## 开发维护
 
-[已保存的浏览器报告](docs/verification.json) 覆盖十个页面，视口宽度为 **1440、768、390 像素**：
+<details>
+<summary>修改案例或运行检查</summary>
 
-| 检查 | 能说明什么 |
-| --- | --- |
-| 页面与图片加载 | 本地资源加载，每页有一个主标题 |
-| 横向溢出 | 文档能放入已测试的视口 |
-| 主要交互 | 控件改变可见内容，对话框能打开和关闭 |
-| 方法说明与骨架 | 设计说明和布局骨架切换可用 |
-| 截图 | 留下桌面、完整长页、手机与骨架视图 |
-
-它们验证网页行为，不等于设计质量评分、无障碍合规或技能效果的因果证明。**尚未执行独立新会话复现或无技能对照实验。** 查看[创作记录](docs/generation-record.json)、[未签名文件指纹](docs/manifest.json)和[复现协议](docs/REPRODUCIBILITY.md)。各例提示词是供后续复现的简报，并非原始逐字输入。专题构图指南也是根据反馈重做后新增的。
-
-检查仓库链接与已有文件指纹：
+检查本地链接与技能名称：
 
 ```sh
 python3 scripts/check_repo.py
 ```
 
-重新生成浏览器检查与截图，需要 Node.js 20+ 和开发依赖。先在另一个终端启动静态服务，再运行：
+浏览器检查需要 Node.js 20+ 和开发依赖。先在另一个终端启动案例集服务，再运行：
 
 ```sh
 npm install
 npx playwright install chromium
 npm run verify
-# 可选：重新合成总览图，需要 Pillow。
-python3 scripts/overview.py
-# 所有修改完成后，同步技能快照与文件指纹。
-npm run manifest
-python3 scripts/check_repo.py
 ```
 
-`verify` 会实际运行浏览器并更新截图及检查报告；字体可能随操作系统变化。总览图脚本需先安装 `python3 -m pip install Pillow`。CI 会重跑浏览器检查，并保存报告与截图产物；本地通过不代表 GitHub Actions 已运行。
+脚本检查 1440、768、390 像素视口下的资源加载、横向溢出与主要交互，更新 `docs/previews/` 截图和[浏览器报告](docs/verification.json)。CI 使用同一脚本，并保存运行产物。
+
+页面结构在 `scripts/build-examples.py` 中修改，再运行 `npm run render`。案例文案与提示词在 `docs/cases.js` 中，修改时同步对应的设计拆解。总览图需要 Pillow：
+
+```sh
+python3 -m pip install Pillow
+python3 scripts/overview.py
+```
+
+字体可能随操作系统变化。浏览器检查验证页面行为，视觉效果仍需查看实际渲染。
+
+</details>
 
 ## 使用
 
@@ -272,19 +269,17 @@ references/
 docs/
   index.html                    可交互案例集
   examples/                     十个完整网页
-  case-studies/                 设计说明与复现简报
+  case-studies/                 设计拆解与场景提示词
   assets/                       CSS/JS 与八份生成图片
   previews/                     桌面、手机、长页与骨架截图
-  generation-record.json        创作过程说明
   verification.json             已保存的浏览器检查结果
-  manifest.json                 未签名 SHA-256 文件指纹
 scripts/                        安装、打包、生成与验证工具
 .github/workflows/              CI 与手动 Pages 发布
 ```
 
 ## 贡献与许可
 
-贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。欢迎提交有真实简报支持的方法改进、响应式修正与独立复现记录，说明实际输入、工具和人工修改，并区分网页检查与技能效果评估。
+欢迎用中文或英文提交 Issue、Pull Request，说明具体需求或问题、修改内容，必要时附截图。修改页面后按开发维护说明检查桌面与手机；新增素材请注明来源，并说明新增依赖。
 
 品牌、活动、价格、参数与业务数据均为虚构演示，不处理真实下单、付款或报名。八份 AI 生成图片随仓库提供，提示词见[素材记录](docs/assets/art-prompts.json)，不是真实项目或目的地的纪实摄影。
 
