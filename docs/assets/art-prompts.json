@@ -1,0 +1,46 @@
+{
+  "generationMode": "built-in image_gen",
+  "purpose": "Original visual assets for revised interactive examples; not reproductions of source screenshots.",
+  "assets": [
+    {
+      "file": "art/camera.png",
+      "transparentBackground": false,
+      "prompt": "Use case: ads-marketing. Asset type: original photographic hero background for a dramatic photography lens campaign website. Create a cinematic photorealistic black-and-white extreme close-up of a fictional adult photographer's single intense eye and hand gripping a large unbranded vintage silver camera lens. The right two-thirds of a wide 3:2 composition are filled by an oversized cropped face/eye above and huge optically detailed lens below, with both cut off boldly by the top, right and bottom image edges. The left third is pure light warm gray, a soft seamless transition, completely empty for live HTML typography. Rich silver metal engravings without readable lettering, visible skin pores, optical reflections, contrasty studio light, fine film grain, art-directed high-end 2010s advertising visual. Crop for emotional focus, do not show a complete person or complete camera. No words, no logos, no watermark, no UI."
+    },
+    {
+      "file": "art/coffee-world.png",
+      "transparentBackground": false,
+      "prompt": "Use case: stylized-concept. Asset type: elaborate original campaign website environment, wide 3:2 image. A magical miniature coffee-growing world rendered as luxurious tactile 3D paper craft and illustrated game concept art: rich deep teal jungle on the two outer edges, oversized glossy coffee leaves and ripe red cherries in foreground corners, distant terraced green mountains in atmospheric layers, curling cream-colored steam trails framing the upper corners, little golden sunlight particles. The middle 55 percent is softly illuminated warm pale cream open space with subtle coffee-paper grain, completely free of objects so an actual giant coffee-cup-shaped HTML information panel can sit there. A few spilled coffee beans and folded paper travel tags along the very bottom. Cinematic volumetric light, intricate textures, warm gold highlights on foliage, saturated teal/coral, sophisticated handcrafted promotional microsite art. NO text, no letters, no UI, no logo, no watermark. Do not draw the central cup or website; this is a background asset."
+    },
+    {
+      "file": "art/runner.png",
+      "transparentBackground": true,
+      "prompt": "Use case: ads-marketing. Asset type: transparent-background original sports campaign cutout. A photorealistic fictional adult female urban runner caught at peak of a powerful forward sprint in three-quarter side view, running toward the right, one knee driving up, arms in natural running motion. Full body completely visible including both shoes and ponytail. Orange lightweight technical windbreaker, black shorts, off-white running shoes with coral sole, no brands. Strong directional light, dramatic rim highlight, realistic fabric movement and detailed shoelaces, high-end athletic campaign photography. A few thin orange motion ribbons trail behind her, but mostly clean silhouette. Genuine transparent background, no ground, no rectangle, no text, no logo, no watermark."
+    },
+    {
+      "file": "art/architecture.png",
+      "transparentBackground": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: architectural editorial full-bleed image, wide 3:2. An original fictional brutalist coastal art museum at sunrise, one impossibly cantilevered warm-white concrete volume cutting a strong diagonal across frame above a sunken courtyard, deep vermilion red cylindrical stair tower at the right, vivid cobalt-blue sea visible through a tall rectangular opening, a small solitary person at bottom for scale. Strong flat geometric composition, long razor-sharp shadows, rough concrete and tactile sunlit stone, red/cream/blue palette. Architectural magazine cover photography, sophisticated slightly grainy film, dramatic crop, no text, no logos, no UI, no watermark."
+    },
+    {
+      "file": "art/north-landscape.png",
+      "transparentBackground": false,
+      "prompt": "Use case: photorealistic-natural. Asset type: immersive full-bleed travel campaign background, wide 3:2. Cinematic aerial view at blue hour of a narrow bright glacial river winding into a dark alpine lake, towering steep snow-dusted dramatic mountains in the upper half, mist between mountain ridges, a tiny orange tent and solitary hiker on rocky foreground at lower right. Vivid turquoise water, indigo shadows, apricot sky band at horizon, warm sunlight on the very highest peaks. Rich fine natural texture, atmospheric depth, realistic high-end expedition photography, not a polygon illustration. The left third is a dark subdued mountain shadow suitable for cream HTML text, the landscape remains impressive across full canvas. No text, no route lines, no logos, no UI, no watermark."
+    },
+    {
+      "file": "art/botanical.png",
+      "transparentBackground": false,
+      "prompt": "Use case: stylized-concept. Asset type: original fragrance microsite background, wide 3:2. Very airy translucent watercolor and photographic botanical collage on nearly pure white textured paper: a delicate magnolia branch enters from the extreme top right, large ghostlike blush-pink and pale periwinkle petals drifting at the outer corners, a long flowing muted-blue silk ribbon gently curling from the right edge toward the bottom edge, tiny scattered petals. Vast uncluttered white space in the entire center and left 70 percent, soft shadows, fine pencil details, poetic and ethereal, refined East Asian fragrance art direction. Main floral interest clustered in outer top right and lower left corners. Not a product shot, no perfume bottle, no words or lettering, no UI, no logo, no watermark."
+    },
+    {
+      "file": "art/bakery-tray.png",
+      "transparentBackground": true,
+      "prompt": "Use case: product-mockup. Asset type: transparent-background original food campaign still life. A tactile playful top-down composition: an open coral-red rectangular bakery gift box with its lid folded outward, filled with three oversized photorealistic thick chocolate-chip cookies, oat cookies and pale lemon cookies on crinkled cream tissue paper, with a few crumbs and a small cherry-red bow outside the box. All edges visible, objects occupy centered composition. Warm directional bakery-window light, convincing delicious browned edges, irregular real chocolate chunks, paper texture, editorial food photography with handcrafted campaign styling. No lettering on packaging, no logo, no hands, no watermark, no visible table, genuine transparent background."
+    },
+    {
+      "file": "art/potter-hands.png",
+      "transparentBackground": true,
+      "prompt": "Use case: photorealistic-natural. Asset type: original transparent-background editorial craft cutout. Close overhead three-quarter view of a pair of adult human hands, lightly covered with wet clay, carefully shaping a small terracotta bowl on a circular wooden pottery turntable. Include complete fingers and wrists, a small unbranded wooden sculpting tool resting across edge of wheel, round wheel visible. Strong tactile details, warm natural window light, realistic wet clay texture, high-end editorial craft photo. Standalone cutout with a genuinely transparent background, no table or surrounding room, no text, no logo, no watermark."
+    }
+  ]
+}

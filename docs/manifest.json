@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T13:55:07.291349+00:00",
+  "purpose": "unsigned artifact integrity inventory; not causal proof or independent reproduction",
+  "skillSha256": "f0580d0b217987b5c602521232fb4b6a989b9aec775e0cd79f336a685bbc5a77",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1435,
+      "sha256": "35cd82fb119de5af10c18a94f5d1526a63d7d8ccd2ccc374a0f4e9f284e561fb"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 658,
+      "sha256": "352b170a7949742aabc83ad8a5b21b987a72f5164a0422a9e36a2fc3b59d5273"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 82,
+      "sha256": "ce5b5c446b40f9314e4d387a7c462e04fa703940b3a67934764721b872764789"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1876,
+      "sha256": "3288b7344702d49096b891a49a8d9fcb392a5fe6e690e90143258da203d42118"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "204fcd3c8ccab515090f0138ff30b81da8fe787131cb6e4af5db8a76fde1bcbf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 18580,
+      "sha256": "e95523c6a1c2f738e071905a3397cefd1f7767ac3a223a4215fc7264eac0a311"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 16334,
+      "sha256": "ff5a859302195f393d57983097f7fcf0c7932f795887e343834f4954627d840c"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 7040,
+      "sha256": "f0580d0b217987b5c602521232fb4b6a989b9aec775e0cd79f336a685bbc5a77"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 295,
+      "sha256": "104279833527dd12ca4503d0b769b6be767d67b500cd29f357e0e804d89e8e74"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 4665,
+      "sha256": "93b26c156ff820614fdc70a0654374906d779386ced43aff7dac060571201308"
+    },
+    {
+      "path": "docs/assets/art/architecture.png",
+      "bytes": 2741498,
+      "sha256": "ceb619216423ddc543029bae2395a68e87304cab4c83cb43ac96bb15c6d2b2c1"
+    },
+    {
+      "path": "docs/assets/art/bakery-tray.png",
+      "bytes": 2561859,
+      "sha256": "c3cfa49b09dffab3b1456233243acd9340affdde4fab24c6905a94010429da1d"
+    },
+    {
+      "path": "docs/assets/art/botanical.png",
+      "bytes": 2202831,
+      "sha256": "97e2c05ee9b9b2fdc3d907a5252ef31e0b520717952767cbf736fed9c347eb97"
+    },
+    {
+      "path": "docs/assets/art/camera.png",
+      "bytes": 2227239,
+      "sha256": "f1589082808726324b01ab99efd0bcdc00af7a3085ca34aa235acdbe44976fad"
+    },
+    {
+      "path": "docs/assets/art/coffee-world.png",
+      "bytes": 2664790,
+      "sha256": "69e47f3bb18cbc1da6bf4ceda684e62061385964eaa0a37519cc93d20f55765a"
+    },
+    {
+      "path": "docs/assets/art/north-landscape.png",
+      "bytes": 2669274,
+      "sha256": "054d6d801b984e486e30caf59df2f3da9bef4df405ef7ab556ebc242efd8bdcd"
+    },
+    {
+      "path": "docs/assets/art/potter-hands.png",
+      "bytes": 2108691,
+      "sha256": "8ca49c7567488cb1bfc7af17aa6ef832572604055b139e5d2ee2669c2afd2d85"
+    },
+    {
+      "path": "docs/assets/art/runner.png",
+      "bytes": 1209489,
+      "sha256": "425d68cb10b1de9daf8fceb7c0ddeabab9cc63d31a5f03912c0eedc907fd6fae"
+    },
+    {
+      "path": "docs/assets/art-prompts.json",
+      "bytes": 7484,
+      "sha256": "8a95df88b04668ef2f7e3cae4b9f91c19d485a3414bbb8b77331801e2568e470"
+    },
+    {
+      "path": "docs/assets/gallery.css",
+      "bytes": 7356,
+      "sha256": "21cdcf830c4d3b8184d5b5ca1012a9446da5739ef2101e79eeca98dacf0cae2c"
+    },
+    {
+      "path": "docs/assets/gallery.js",
+      "bytes": 2814,
+      "sha256": "97874ab67fb3162c4e5014b2f6223ca0010314acb356026132e3ea90a6c20ab1"
+    },
+    {
+      "path": "docs/assets/shared.css",
+      "bytes": 60880,
+      "sha256": "4fe217d4900589215444138f4872479925fae2b63935244caf1350bdb5db8d21"
+    },
+    {
+      "path": "docs/assets/shared.js",
+      "bytes": 12044,
+      "sha256": "b836e4ec084d48be03011115bd9aa0ea7e4231670eab6b21f0cfef521c9c96f9"
+    },
+    {
+      "path": "docs/case-studies/aperture-lens.md",
+      "bytes": 2518,
+      "sha256": "fb04b215d1f6c76275a1b3f12142d5d6e0100e801896f814b82a1f90aaacc87a"
+    },
+    {
+      "path": "docs/case-studies/coffee-passport.md",
+      "bytes": 2563,
+      "sha256": "0a0cf9550dfdae32bd4e9dccf6fa49dde12060e92262d5945d9fb88444791a0f"
+    },
+    {
+      "path": "docs/case-studies/crumb-bakery.md",
+      "bytes": 2635,
+      "sha256": "430216b5ecccb19a70d233a41de2b2c150cf093f9cd578fc88393604048079e5"
+    },
+    {
+      "path": "docs/case-studies/field-notes.md",
+      "bytes": 2521,
+      "sha256": "734fd08e0d6ef574195b9aeb5649f161b70690706e41cc5ab0af4e99ca770757"
+    },
+    {
+      "path": "docs/case-studies/kaiwu-workshop.md",
+      "bytes": 2588,
+      "sha256": "28658588814665ff7ae78fcd85c4106949e5126e56178fd105389655fd529269"
+    },
+    {
+      "path": "docs/case-studies/loop-impact.md",
+      "bytes": 2496,
+      "sha256": "b648a7760f353b916e3327bcb1a484f00f18c64c7d27df68851e93b7edf6e951"
+    },
+    {
+      "path": "docs/case-studies/north-travel.md",
+      "bytes": 2479,
+      "sha256": "51bb13a6de623fde7d8a342e9015d656647f0fad93e064fbc1bbf9838deffdf6"
+    },
+    {
+      "path": "docs/case-studies/offgrid-festival.md",
+      "bytes": 2535,
+      "sha256": "09d8af5babdf1737ac774d2f5a5b908e3d5b2742f5af48faef514ecfe8c28f59"
+    },
+    {
+      "path": "docs/case-studies/shift-running.md",
+      "bytes": 2467,
+      "sha256": "8853f82f10f336522aa83a58c060feed4dd3a727402f28fe2fffaae1ea24f5b7"
+    },
+    {
+      "path": "docs/case-studies/sol-fragrance.md",
+      "bytes": 2547,
+      "sha256": "4012b04caf062b76e83e6a9c1486891a1cfa6124c24abf9a3c66bddbe41e74ed"
+    },
+    {
+      "path": "docs/cases.js",
+      "bytes": 14828,
+      "sha256": "ee800e01677bb0d81f472b4a744463745f4871bb3bd29312746d668a227a4650"
+    },
+    {
+      "path": "docs/examples/aperture-lens/index.html",
+      "bytes": 2989,
+      "sha256": "062a382a8a162c60ac4e77665a78062a920b77f3b37d3489e1cbd1feda5ad175"
+    },
+    {
+      "path": "docs/examples/coffee-passport/index.html",
+      "bytes": 4214,
+      "sha256": "0264f64391dedfbf0d345affe5965d864994d1c161455ecc1192303daa53dad5"
+    },
+    {
+      "path": "docs/examples/crumb-bakery/index.html",
+      "bytes": 5113,
+      "sha256": "156ea1263978e3c8fc3d53de7008e1f4e1a5676dd2d54facec55e05c374bf05b"
+    },
+    {
+      "path": "docs/examples/field-notes/index.html",
+      "bytes": 3053,
+      "sha256": "da2e7d5cc68e8eeaf1cc3e35b25d80bd3f373fa6accf2eac1ef86ffe66889710"
+    },
+    {
+      "path": "docs/examples/kaiwu-workshop/index.html",
+      "bytes": 4987,
+      "sha256": "2cd6e02d03f0c9b573bdcc24aad8717f9e0c6ffc1d51d1de41ab3785e21cb677"
+    },
+    {
+      "path": "docs/examples/loop-impact/index.html",
+      "bytes": 5135,
+      "sha256": "ca6fe5fb89a2466ffd020eec875e8f09ef8b99328c35cb97a237b8243e8c47ab"
+    },
+    {
+      "path": "docs/examples/north-travel/index.html",
+      "bytes": 3607,
+      "sha256": "b64fa824908033cbf266b789c4fdb16818bd673376f87cd4b1eacf026a072bc8"
+    },
+    {
+      "path": "docs/examples/offgrid-festival/index.html",
+      "bytes": 3602,
+      "sha256": "8d6e3c6ae7bf505a56a277d01fcb4d4841677c5cb84298c3cf72a30e273cbbe0"
+    },
+    {
+      "path": "docs/examples/shift-running/index.html",
+      "bytes": 3591,
+      "sha256": "bb455eeb1847290d62815f8b4f872210abefc2ab90a8abf36049e65000327da6"
+    },
+    {
+      "path": "docs/examples/sol-fragrance/index.html",
+      "bytes": 4414,
+      "sha256": "560ef6574d4b1e553a2942e233cad5121c434f12d26821869fad205b829d0952"
+    },
+    {
+      "path": "docs/generation-record.json",
+      "bytes": 1856,
+      "sha256": "4c803e158951fcde85b1c5464283a3c2cfcef3faf6b415641575c136f6c7a070"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 3745,
+      "sha256": "c606e143ea6943a43c499e13a8e9c7e121fba05da37af571b3a14ab844f3b3cd"
+    },
+    {
+      "path": "docs/previews/aperture-lens-full.jpg",
+      "bytes": 198928,
+      "sha256": "aabe6c9b343c1b05d3691acd5069153c00d9893d24d3cabb7ef77ebca81fb62f"
+    },
+    {
+      "path": "docs/previews/aperture-lens-mobile.png",
+      "bytes": 372553,
+      "sha256": "a9226d270078afe41619b0dff48d70363e8f607b7f4d91b6de271c221786d949"
+    },
+    {
+      "path": "docs/previews/aperture-lens-skeleton.jpg",
+      "bytes": 112676,
+      "sha256": "061c0a9ea6accce9ebf203b4b5da0f38a86dbae40cae41a4eb1606c7461acf72"
+    },
+    {
+      "path": "docs/previews/aperture-lens.jpg",
+      "bytes": 190136,
+      "sha256": "654e9e0b43cb09efb3b1d7acdee016e7598d68f8ca1f60c5c17a9301ab98c57c"
+    },
+    {
+      "path": "docs/previews/coffee-passport-full.jpg",
+      "bytes": 343762,
+      "sha256": "64dda0f86adf28c77e16d1b437ccd78a866cf0e9e7305a3810b92c32bccf43c8"
+    },
+    {
+      "path": "docs/previews/coffee-passport-mobile.png",
+      "bytes": 347770,
+      "sha256": "7c359af334ee6f548bafedfe99047cc6fbe1d66630fcb9ca8463a88ffea3e38e"
+    },
+    {
+      "path": "docs/previews/coffee-passport-skeleton.jpg",
+      "bytes": 162939,
+      "sha256": "a1097d91b8c9dde8ada6e0a11d82d40567105b9f2358121ee70583207090be4a"
+    },
+    {
+      "path": "docs/previews/coffee-passport.jpg",
+      "bytes": 271025,
+      "sha256": "c773610a495334cf9235b68832cdff2366f47e653808075d05db899d8e1105f0"
+    },
+    {
+      "path": "docs/previews/crumb-bakery-full.jpg",
+      "bytes": 219695,
+      "sha256": "850aa1ee54be95c298e742628d3d54c52b24311678ec38affe485a91316809ae"
+    },
+    {
+      "path": "docs/previews/crumb-bakery-mobile.png",
+      "bytes": 481904,
+      "sha256": "1d9cf29f1d2099dbfbd1460a73c51ea02f50af37daab0a6e7b642b4e9241512a"
+    },
+    {
+      "path": "docs/previews/crumb-bakery-skeleton.jpg",
+      "bytes": 136044,
+      "sha256": "047c61eb7f563dfcb6a83abb08f9fbeda634ed95e2d4f03603441fce678a2ef9"
+    },
+    {
+      "path": "docs/previews/crumb-bakery.jpg",
+      "bytes": 180962,
+      "sha256": "0a3ae8815c110f0089a7ef46ed3dbadef5199eafe9a1ebf37d94446805738086"
+    },
+    {
+      "path": "docs/previews/field-notes-full.jpg",
+      "bytes": 222292,
+      "sha256": "9638adfc55d0ba05269466379a79e35d80e1024475b82d47976dcb8ed7b9f121"
+    },
+    {
+      "path": "docs/previews/field-notes-mobile.png",
+      "bytes": 313942,
+      "sha256": "8667e1b789a52d2bd38ec8214745e317a6433fa87f5e9d2ed7410d79803217db"
+    },
+    {
+      "path": "docs/previews/field-notes-skeleton.jpg",
+      "bytes": 124550,
+      "sha256": "f9e7321d525e5a2cb6d68a67537d82030645eb4788f416b364899fb12fbbded8"
+    },
+    {
+      "path": "docs/previews/field-notes.jpg",
+      "bytes": 191043,
+      "sha256": "173ba6df25bc0166ce04254aa2ae3600a3e316c63a1c09ee62bc1906974e93e7"
+    },
+    {
+      "path": "docs/previews/gallery-mobile.png",
+      "bytes": 977339,
+      "sha256": "0c6674f37ff6a26b40e021daff588d7302dc1eaaff794dd2ad1ab3fefc502af7"
+    },
+    {
+      "path": "docs/previews/gallery.png",
+      "bytes": 2509165,
+      "sha256": "881c1c57754bdc4b218daa2ea056d6b49af51ce5d3e0df6a585858203ddef56f"
+    },
+    {
+      "path": "docs/previews/kaiwu-workshop-full.jpg",
+      "bytes": 210538,
+      "sha256": "65e65a8275e40dde370f2d2524fbcb3efcb94d6c2ce4b0e537b015f360f7d469"
+    },
+    {
+      "path": "docs/previews/kaiwu-workshop-mobile.png",
+      "bytes": 407483,
+      "sha256": "82e7c944ae6141305ac148a78b9857055ca8ea549edde5de4c199f8502750bf4"
+    },
+    {
+      "path": "docs/previews/kaiwu-workshop-skeleton.jpg",
+      "bytes": 168864,
+      "sha256": "dc8d272815fc8f98e659d32dd7e2b91d6ddf3904137b964dfd7be56c2478ef9d"
+    },
+    {
+      "path": "docs/previews/kaiwu-workshop.jpg",
+      "bytes": 158708,
+      "sha256": "5cd81fe9770045c4f6f8b942221f64e58d84d68ff63595b9f3175d8bc627d2ad"
+    },
+    {
+      "path": "docs/previews/loop-impact-full.jpg",
+      "bytes": 114251,
+      "sha256": "79d054ef43c4299e50f3846c9a022a71b046bc245d6fcf5a05f04ad26f5c5400"
+    },
+    {
+      "path": "docs/previews/loop-impact-mobile.png",
+      "bytes": 102411,
+      "sha256": "9c53eaf615235fd91c63bf67b872a3a8911e9242b73246d4f96d1c2913909590"
+    },
+    {
+      "path": "docs/previews/loop-impact-skeleton.jpg",
+      "bytes": 104160,
+      "sha256": "77d8fa17cf5601c4a1e33c49b3a6ea52d84867483e7234d81f076e73cdc36264"
+    },
+    {
+      "path": "docs/previews/loop-impact.jpg",
+      "bytes": 74340,
+      "sha256": "7b330132559f9c2b500b00fe810c5bd9dd81461ea17933904c82fc3e6e975a3e"
+    },
+    {
+      "path": "docs/previews/north-travel-full.jpg",
+      "bytes": 279455,
+      "sha256": "8ee80dead7aa5648719d2d75f05094ac010ee23b61bd31774aa6b2f7ed42addd"
+    },
+    {
+      "path": "docs/previews/north-travel-mobile.png",
+      "bytes": 521068,
+      "sha256": "6eabbf6f9fc819eb1d23bcf843303dc56f22ebc2488183fd2d68796898411209"
+    },
+    {
+      "path": "docs/previews/north-travel-skeleton.jpg",
+      "bytes": 103189,
+      "sha256": "75971f9979c201df2ccbec8abe6c684f59068abac9a7a146f5bc27806885424c"
+    },
+    {
+      "path": "docs/previews/north-travel.jpg",
+      "bytes": 254411,
+      "sha256": "2b716c2038a350c1850d48cf8b10386072e17b615ad819ca4dc0bc596827b1e6"
+    },
+    {
+      "path": "docs/previews/offgrid-festival-full.jpg",
+      "bytes": 151779,
+      "sha256": "e528b596dc5f948d378fa8e5b9dd0266d91a9fb67bc6b01d6fa4d4c05ddcc3bc"
+    },
+    {
+      "path": "docs/previews/offgrid-festival-mobile.png",
+      "bytes": 206790,
+      "sha256": "b81bff0757fdf31e219cee50146ebb98ca356e64dec0b43fd200c713ad86758c"
+    },
+    {
+      "path": "docs/previews/offgrid-festival-skeleton.jpg",
+      "bytes": 141700,
+      "sha256": "b279969385cf79bc7dd9c91f82962d19964734ebb5e268f192adb05f523be118"
+    },
+    {
+      "path": "docs/previews/offgrid-festival.jpg",
+      "bytes": 121194,
+      "sha256": "2573d49a68770787fc7575941a6eedf0525ffc0e35eeba785d1a6176b0d61e89"
+    },
+    {
+      "path": "docs/previews/overview.jpg",
+      "bytes": 814623,
+      "sha256": "2d001f9e9034602006e249eabc784a3c010a2edb4041807f868fa808ce9a7492"
+    },
+    {
+      "path": "docs/previews/shift-running-full.jpg",
+      "bytes": 197726,
+      "sha256": "e36d20e4bb40908c10fd6a592a0ec4c52f83b5754a5d30eec46473e1c91db07a"
+    },
+    {
+      "path": "docs/previews/shift-running-mobile.png",
+      "bytes": 387090,
+      "sha256": "2d2c4908fe975b2fe13f3b96748de1c91543d1fdaa2a49f9b21bbc6cd5e5c202"
+    },
+    {
+      "path": "docs/previews/shift-running-skeleton.jpg",
+      "bytes": 136301,
+      "sha256": "0de84a75bf15df8a29605b40f2bfd44e56cf36c5c4e67cc32db1b2bc1080f8d3"
+    },
+    {
+      "path": "docs/previews/shift-running.jpg",
+      "bytes": 167261,
+      "sha256": "d41418e9cd620c48d1aa261ad2d7bb4fea6b809cf0d1043b223f17498e56b8c5"
+    },
+    {
+      "path": "docs/previews/sol-fragrance-full.jpg",
+      "bytes": 223542,
+      "sha256": "1406fb581651d420c9f79c7cbb05b5996f6c7edf3f02bc55ce839c7941c48c70"
+    },
+    {
+      "path": "docs/previews/sol-fragrance-mobile.png",
+      "bytes": 341070,
+      "sha256": "3796cc62a34d36fda7182d6acad8ac7d62e25f4bd7d7da93dab12fad2f19e713"
+    },
+    {
+      "path": "docs/previews/sol-fragrance-skeleton.jpg",
+      "bytes": 153314,
+      "sha256": "8d7d282397a0b74dc346f8eb657f1f2b08f47f1d8582433a218816b12d1eca22"
+    },
+    {
+      "path": "docs/previews/sol-fragrance.jpg",
+      "bytes": 141212,
+      "sha256": "a06a6b104b99e42be2203c1ac84ee5515451aa51bdf5d37b4242316342919adb"
+    },
+    {
+      "path": "docs/skill.txt",
+      "bytes": 7040,
+      "sha256": "f0580d0b217987b5c602521232fb4b6a989b9aec775e0cd79f336a685bbc5a77"
+    },
+    {
+      "path": "docs/verification.json",
+      "bytes": 7873,
+      "sha256": "5e227c158002b4c2b84471d0034723c883b0b7143613bc0928e8e39b915b07bf"
+    },
+    {
+      "path": "package.json",
+      "bytes": 615,
+      "sha256": "1720ab1009b2f30f5c12206f4c1be1d1e1b85ebaa608f1b660e50d6cc8e6a31e"
+    },
+    {
+      "path": "references/campaign-composition.md",
+      "bytes": 5287,
+      "sha256": "018824915506a5d91c697da17cd71459344cd74dc82ff8b13442ef410cce8398"
+    },
+    {
+      "path": "references/examples.md",
+      "bytes": 3457,
+      "sha256": "ef8144dcc88226198fd14256a381d498177f3bf841b0bcf4de3795d42c606670"
+    },
+    {
+      "path": "references/implementation.md",
+      "bytes": 4935,
+      "sha256": "5c6193caaa222a1f39e44a0e792dbcfd73ac196b9bbbb86be5e3e77da8c04694"
+    },
+    {
+      "path": "references/visual-methods.md",
+      "bytes": 12176,
+      "sha256": "f3b3128dfec65dcc1fa5863a9dfef8646cdfd76080954e76c0826129772a1b1f"
+    },
+    {
+      "path": "scripts/build-examples.py",
+      "bytes": 26160,
+      "sha256": "91c81e616db55c2b5f903d5544af6b11a6addae34844f7063bc65fa4b33c3f21"
+    },
+    {
+      "path": "scripts/check_repo.py",
+      "bytes": 3588,
+      "sha256": "224d3eb029c278955e709961a163930c0f2e1d8ef9d1b2cce385f9bbda83eeb2"
+    },
+    {
+      "path": "scripts/install_skill.py",
+      "bytes": 2420,
+      "sha256": "ddec01b62d230b4fb02c8324d49518b3a42655f5cb891566a3fc1a315cfe7fd3"
+    },
+    {
+      "path": "scripts/manifest.py",
+      "bytes": 1341,
+      "sha256": "6c70a1dfd21788c856f9a0aee6fc8cc3dc89ff707b1b584a2fcbdf8f7a512733"
+    },
+    {
+      "path": "scripts/overview.py",
+      "bytes": 2349,
+      "sha256": "4062f732b8efdd917685cd5ab0a8719025e2411db2d70fd1f3242d3776364791"
+    },
+    {
+      "path": "scripts/package_skill.py",
+      "bytes": 967,
+      "sha256": "38552e6785621fcb9f44ae14c1668389e1095967c5d7574b4f453d75dfffa653"
+    },
+    {
+      "path": "scripts/verify.mjs",
+      "bytes": 9125,
+      "sha256": "0b0a4e9669527f602f32947e42eed951f79ac7dffb1ce3e7bf62fffb2134238f"
+    }
+  ]
+}

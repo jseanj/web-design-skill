@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Design Skill"
+  short_description: "运用十种视觉创意方法，完成网页构图、信息编排与可运行页面设计"
+  default_prompt: "请用 $web-design-skill，根据我的产品与文案选择合适的形式感方法，完成网页视觉设计。"

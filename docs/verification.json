@@ -1,0 +1,234 @@
+{
+  "kind": "browser-ui-verification",
+  "independentSkillReproduction": false,
+  "startedAt": "2026-10-27T13:51:35.299Z",
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 960
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "cases": [
+    {
+      "id": "01",
+      "slug": "coffee-passport",
+      "method": "抄现实",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/coffee-passport.jpg",
+        "previews/coffee-passport-full.jpg",
+        "previews/coffee-passport-skeleton.jpg",
+        "previews/coffee-passport-mobile.png"
+      ]
+    },
+    {
+      "id": "02",
+      "slug": "offgrid-festival",
+      "method": "圆、方、三角",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/offgrid-festival.jpg",
+        "previews/offgrid-festival-full.jpg",
+        "previews/offgrid-festival-skeleton.jpg",
+        "previews/offgrid-festival-mobile.png"
+      ]
+    },
+    {
+      "id": "03",
+      "slug": "aperture-lens",
+      "method": "断臂之美",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/aperture-lens.jpg",
+        "previews/aperture-lens-full.jpg",
+        "previews/aperture-lens-skeleton.jpg",
+        "previews/aperture-lens-mobile.png"
+      ]
+    },
+    {
+      "id": "04",
+      "slug": "sol-fragrance",
+      "method": "欲擒故纵",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/sol-fragrance.jpg",
+        "previews/sol-fragrance-full.jpg",
+        "previews/sol-fragrance-skeleton.jpg",
+        "previews/sol-fragrance-mobile.png"
+      ]
+    },
+    {
+      "id": "05",
+      "slug": "shift-running",
+      "method": "乾坤大挪移",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/shift-running.jpg",
+        "previews/shift-running-full.jpg",
+        "previews/shift-running-skeleton.jpg",
+        "previews/shift-running-mobile.png"
+      ]
+    },
+    {
+      "id": "06",
+      "slug": "field-notes",
+      "method": "杂志版式",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/field-notes.jpg",
+        "previews/field-notes-full.jpg",
+        "previews/field-notes-skeleton.jpg",
+        "previews/field-notes-mobile.png"
+      ]
+    },
+    {
+      "id": "07",
+      "slug": "north-travel",
+      "method": "全屏大视野",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/north-travel.jpg",
+        "previews/north-travel-full.jpg",
+        "previews/north-travel-skeleton.jpg",
+        "previews/north-travel-mobile.png"
+      ]
+    },
+    {
+      "id": "08",
+      "slug": "kaiwu-workshop",
+      "method": "文字衣橱",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/kaiwu-workshop.jpg",
+        "previews/kaiwu-workshop-full.jpg",
+        "previews/kaiwu-workshop-skeleton.jpg",
+        "previews/kaiwu-workshop-mobile.png"
+      ]
+    },
+    {
+      "id": "09",
+      "slug": "loop-impact",
+      "method": "你看起来很好吃",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/loop-impact.jpg",
+        "previews/loop-impact-full.jpg",
+        "previews/loop-impact-skeleton.jpg",
+        "previews/loop-impact-mobile.png"
+      ]
+    },
+    {
+      "id": "10",
+      "slug": "crumb-bakery",
+      "method": "钉钉铆铆",
+      "checks": [
+        "page loads, one main heading",
+        "primary interaction changes visible content; modal opens and Escape closes where applicable",
+        "method explanation dialog",
+        "layout skeleton toggle; decoration toggle where present",
+        "no document overflow at 1440px",
+        "no document overflow at 768px",
+        "no document overflow at 390px",
+        "primary interaction reachable on mobile"
+      ],
+      "screenshots": [
+        "previews/crumb-bakery.jpg",
+        "previews/crumb-bakery-full.jpg",
+        "previews/crumb-bakery-skeleton.jpg",
+        "previews/crumb-bakery-mobile.png"
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "finishedAt": "2026-10-27T13:51:46.412Z"
+}

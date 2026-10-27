@@ -1,0 +1,46 @@
+name: Check skill and examples
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check saved links and integrity inventory
+        run: python3 scripts/check_repo.py
+      - name: Package portable skill
+        run: python3 scripts/package_skill.py
+      - name: Install browser test tools
+        run: |
+          npm install --ignore-scripts
+          npx playwright install --with-deps chromium
+      - name: Start local gallery
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory docs > /tmp/web-design-gallery.log 2>&1 &
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:8765/ > /dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/web-design-gallery.log
+          exit 1
+      - name: Check ten examples in Chromium
+        run: npm run verify
+      - name: Save browser results and portable skill
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-design-skill-checks
+          path: |
+            docs/verification.json
+            docs/previews/
+            dist/web-design-skill.zip

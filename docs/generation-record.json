@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "recordType": "author-disclosed-creation-record",
+  "task": "为十种视觉方法设计十个场景应用，用于 GitHub 开源展示。",
+  "creationMode": "单一创作会话先读取技能与方法库，依据用户对第一版的反馈重读原始参考材料、查看案例配图，重做构图与素材，经同一会话检查与修正。",
+  "skillInputsRead": [
+    "SKILL.md",
+    "references/visual-methods.md",
+    "references/implementation.md"
+  ],
+  "implementation": "十个独立静态网页，真实 HTML 内容与交互，八份内置 image_gen 生成的图片，以及 CSS/SVG 承载、路径和信息图形。",
+  "promptDisclosure": "case-studies 中的提示词是供后续独立复现的场景简报，并非原始逐字输入。当前任务采用整体创作，没有十次独立生成运行。",
+  "independentReproduction": {
+    "status": "not-run",
+    "runs": []
+  },
+  "controlledComparison": {
+    "status": "not-run",
+    "runs": []
+  },
+  "evidenceLimit": "本记录为创作者说明，文件指纹不等于签名证明，也不证明技能与结果的因果关系。",
+  "verificationReport": "verification.json",
+  "artifactManifest": "manifest.json",
+  "revision": "2 / composition-led campaign examples",
+  "referenceInspection": "参考材料仅供分析其构图、承载与取景方法；原始案例图片未进入发布包。",
+  "artDisclosure": "八份图像使用内置 image_gen 生成，完整提示词与素材路径见 assets/art-prompts.json。素材对成品表现有直接贡献。",
+  "skillAtStartSha256": "01ff4ba6d6d39a1e8ce24de302df67f933d76e989c60891275d400ef62274c87",
+  "skillRevisionDisclosure": "本轮设计修正后新增 campaign-composition.md，并写回技能入口。这份完成版用于后续复现，不宣称它在原始首次生成前已经存在。"
+}
